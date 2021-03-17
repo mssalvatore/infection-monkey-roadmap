@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.goal {
+    margin: auto;
+    transform: scale(0.5);
+}
+
+.goal:hover {
+    transform: scale(1.0);
+}
+
+.current {
+}
+
+.description {
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+}
