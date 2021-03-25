@@ -1,14 +1,14 @@
 iterations = [
     {
         "start_date": "March 1",
-        "end_date": "March 19",
+        "end_date": "March 26",
         "description": "Release Infection Monkey v1.10. We haven't released since August, so this will be one monster of a release.",
         "objectives": [],
         "image": "kraken.jpg"
     },
     {
-        "start_date": "March 22",
-        "end_date": "April 2",
+        "start_date": "March 29",
+        "end_date": "April 17",
         "description": "Find creative ways to improve our flow and do more with less.",
         "objectives": [
             "Automated end-to-end tests",
@@ -20,8 +20,8 @@ iterations = [
         "image": "more_with_less.jpg"
     },
     {
-        "start_date": "April 5",
-        "end_date": "April 14",
+        "start_date": "April 20",
+        "end_date": "May 1",
         "description": "Harden Infection Monkey against attack. Analyze code for weak security practices and fix them.",
         "objectives": [
             "Address bandit findings",
@@ -38,29 +38,29 @@ iterations = [
         "image": "hatches.jpg"
     },
     {
-        "start_date": "April 15",
-        "end_date": "April 30",
+        "start_date": "May 4",
+        "end_date": "May 29",
         "description": "Add scenarios wizard that helps users configure and run breach & attack simulations quickly.",
         "objectives": [],
         "image": "lightning.jpg"
     },
     {
-        "start_date": "May 3",
-        "end_date": "May 14",
+        "start_date": "June 1",
+        "end_date": "June 17",
         "description": "Add ransomware simulation capability.",
         "objectives": [],
         "image": "ransom.jpg"
     },
     {
-        "start_date": "May 17",
-        "end_date": "May 21",
+        "start_date": "June 18",
+        "end_date": "June 26",
         "description": "Fix as many bugs as possible, improving automated tests along the way.",
         "objectives": [],
         "image": "bugs.jpg"
     },
     {
-        "start_date": "May 24",
-        "end_date": "May 26",
+        "start_date": "June 28",
+        "end_date": "June 30",
         "description": "Release Infection Monkey v1.11 with awesome new ransomware and scenarios features.",
         "objectives": [],
         "image": "awesome.jpg"
