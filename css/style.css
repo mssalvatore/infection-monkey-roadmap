@@ -209,3 +209,7 @@ blockquote {
 .bnt-more {
     visibility: hidden;
 }
+
+.greyed {
+    opacity: 0.4;
+}
