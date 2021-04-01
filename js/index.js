@@ -28,10 +28,14 @@ iterations = [
         "end_date": "April 22",
         "description": "Find creative ways to improve our flow and do more with less.",
         "objectives": [
-            "Automated end-to-end tests",
+            "Automated end-to-end tests (including performance tests)",
+            "Properly clean up after builds",
             "Automated build process",
             "AppImage Package",
-            "Expedite release process"
+            "Expedite release process",
+            "Properly freeze dependencies",
+            "More efficiently update monkey zoo dev branch",
+            "Move monkey build scripts to monkey repo or their own repo"
         ],
         "image": "more_with_less.jpg"
     },
