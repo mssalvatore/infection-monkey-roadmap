@@ -8,17 +8,18 @@ iterations = [
         "image": "kraken.jpg"
     },
     {
-        "greyed": false,
+        "greyed": true,
         "start_date": "April 1",
         "end_date": "April 8",
         "description": "Resolve old PRs and format code with Black.",
         "objectives": [
-          "Merge report refactoring",
-          "Merge AppImage",
-          "Run black on entire codebase",
-          "Resolve flake8 findings",
-          "Add pre-commit hooks for black, flake8, isort",
-          "CI pipeline uses same black, flake8, and isort rules as pre-commit hooks"
+          "<del>Merge report refactoring</del>",
+          "<del>Merge AppImage</del>",
+          "<del>Run black on entire codebase</del>",
+          "<del>Resolve flake8 findings</del>",
+          "<del>Add pre-commit hooks for black, flake8, isort</del>",
+          "<del>CI pipeline uses same black, flake8, and isort rules as pre-commit hooks</del>",
+          "<del>Re-enable swimm in CI</del>"
         ],
         "image": "paint_it_black.jpg"
     },
@@ -35,7 +36,8 @@ iterations = [
             "Expedite release process",
             "Properly freeze dependencies",
             "More efficiently update monkey zoo dev branch",
-            "Move monkey build scripts to monkey repo or their own repo"
+            "Move monkey build scripts to monkey repo or their own repo",
+            "Put unit tests in their own directory"
         ],
         "image": "more_with_less.jpg"
     },
