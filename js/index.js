@@ -26,25 +26,26 @@ iterations = [
     {
         "greyed": false,
         "start_date": "April 9",
-        "end_date": "April 22",
+        "end_date": "May 6",
         "description": "Find creative ways to improve our flow and do more with less.",
         "objectives": [
             "Automated end-to-end tests (including performance tests)",
             "Properly clean up after builds",
             "Automated build process",
-            "AppImage Package",
+            "<del>AppImage Package</del>",
             "Expedite release process",
             "Properly freeze dependencies",
             "More efficiently update monkey zoo dev branch",
             "Move monkey build scripts to monkey repo or their own repo",
-            "Put unit tests in their own directory"
+            "<del>Put unit tests in their own directory</del>",
+            "<del>Run eslint on commit</del>"
         ],
         "image": "more_with_less.jpg"
     },
     {
         "greyed": false,
-        "start_date": "April 23",
-        "end_date": "May 6",
+        "start_date": "May 7",
+        "end_date": "May 21",
         "description": "Harden Infection Monkey against attack. Analyze code for weak security practices and fix them.",
         "objectives": [
             "Address bandit findings",
