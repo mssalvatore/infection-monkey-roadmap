@@ -50,6 +50,7 @@ iterations = [
         "description": "Harden Infection Monkey against attack. Analyze code for weak security practices and fix them.",
         "objectives": [
             "<del>Address dlint findings</del>",
+            "Check for and mitigate CSRF vulnerabilities",
             "Create users more securely",
             "Don't run as root",
             "Create encryption keys and other sensitive files with better permissions.",
