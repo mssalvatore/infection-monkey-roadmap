@@ -34,11 +34,12 @@ iterations = [
             "Automated build process",
             "<del>AppImage Package</del>",
             "Expedite release process",
-            "Properly freeze dependencies",
+            "<del>Properly freeze dependencies<del>",
             "More efficiently update monkey zoo dev branch",
             "Move monkey build scripts to monkey repo or their own repo",
             "<del>Put unit tests in their own directory</del>",
-            "<del>Run eslint on commit</del>"
+            "<del>Run eslint on commit</del>",
+            "<del>Add a set of pre-commit hooks that prevent non-compliant code from ever being added.</del>"
         ],
         "image": "more_with_less.jpg"
     },
@@ -48,10 +49,11 @@ iterations = [
         "end_date": "May 21",
         "description": "Harden Infection Monkey against attack. Analyze code for weak security practices and fix them.",
         "objectives": [
-            "Address bandit findings",
+            "<del>Address dlint findings</del>",
             "Create users more securely",
             "Don't run as root",
             "Create encryption keys and other sensitive files with better permissions.",
+            "Assess the security of mongodb. Are there publicly accessible ports?",
             "Hash password on server-side",
             "Remove insecure use of /tmp",
             "Monkey agents authenticate with C&C",
