@@ -26,11 +26,11 @@ iterations = [
     {
         "greyed": false,
         "start_date": "April 9",
-        "end_date": "May 6",
+        "end_date": "May 28",
         "description": "Find creative ways to improve our flow and do more with less.",
         "objectives": [
             "Automated end-to-end tests (including performance tests)",
-            "Properly clean up after builds",
+            "<del>Properly clean up after builds</del>",
             "Automated build process",
             "<del>AppImage Package</del>",
             "Expedite release process",
@@ -46,16 +46,16 @@ iterations = [
     {
         "greyed": false,
         "start_date": "May 7",
-        "end_date": "May 21",
+        "end_date": "June 4",
         "description": "Harden Infection Monkey against attack. Analyze code for weak security practices and fix them.",
         "objectives": [
             "<del>Address dlint findings</del>",
             "Check for and mitigate CSRF vulnerabilities",
             "Create users more securely",
-            "Don't run as root",
+            "<del>Don't run as root</del>",
             "Create encryption keys and other sensitive files with better permissions.",
             "Assess the security of mongodb. Are there publicly accessible ports?",
-            "Hash password on server-side",
+            "<del>Hash password on server-side</del>",
             "Remove insecure use of /tmp",
             "Monkey agents authenticate with C&C",
             "Prevent MITM from sending configs to running monkeys",
@@ -66,33 +66,41 @@ iterations = [
     },
     {
         "greyed": false,
-        "start_date": "May 7",
-        "end_date": "May 29",
-        "description": "Add scenarios wizard that helps users configure and run breach & attack simulations quickly.",
-        "objectives": [],
-        "image": "lightning.jpg"
-    },
-    {
-        "greyed": false,
-        "start_date": "June 1",
-        "end_date": "June 17",
-        "description": "Add ransomware simulation capability.",
-        "objectives": [],
-        "image": "ransom.jpg"
-    },
-    {
-        "greyed": false,
-        "start_date": "June 18",
-        "end_date": "June 26",
+        "start_date": "June 4",
+        "end_date": "June 10",
         "description": "Fix as many bugs as possible, improving automated tests along the way.",
         "objectives": [],
         "image": "bugs.jpg"
     },
     {
         "greyed": false,
-        "start_date": "June 28",
-        "end_date": "June 30",
-        "description": "Release Infection Monkey v1.11 with awesome new ransomware and scenarios features.",
+        "start_date": "June 11",
+        "end_date": "June 17",
+        "description": "Release Infection Monkey v1.11 with improved security features and linux distro compatibility.",
+        "objectives": [],
+        "image": "appimage_release.jpg"
+    },
+    {
+        "greyed": false,
+        "start_date": "TBD",
+        "end_date": "TBD",
+        "description": "Add scenarios wizard that helps users configure and run breach & attack simulations quickly.",
+        "objectives": [],
+        "image": "lightning.jpg"
+    },
+    {
+        "greyed": false,
+        "start_date": "TBD",
+        "end_date": "TBD",
+        "description": "Add ransomware simulation capability.",
+        "objectives": [],
+        "image": "ransom.jpg"
+    },
+    {
+        "greyed": false,
+        "start_date": "TBD",
+        "end_date": "TBD",
+        "description": "Release Infection Monkey v1.12 with awesome new ransomware and scenarios features.",
         "objectives": [],
         "image": "awesome.jpg"
     }
