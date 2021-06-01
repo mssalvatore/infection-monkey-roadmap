@@ -26,7 +26,7 @@ iterations = [
     {
         "greyed": false,
         "start_date": "April 9",
-        "end_date": "May 28",
+        "end_date": "June 10",
         "description": "Find creative ways to improve our flow and do more with less.",
         "objectives": [
             "Automated end-to-end tests (including performance tests)",
@@ -46,12 +46,12 @@ iterations = [
     {
         "greyed": false,
         "start_date": "May 7",
-        "end_date": "June 4",
+        "end_date": "June 17",
         "description": "Harden Infection Monkey against attack. Analyze code for weak security practices and fix them.",
         "objectives": [
             "<del>Address dlint findings</del>",
             "Check for and mitigate CSRF vulnerabilities",
-            "Create users more securely",
+            "<del>Create users more securely<del>",
             "<del>Don't run as root</del>",
             "Create encryption keys and other sensitive files with better permissions.",
             "Assess the security of mongodb. Are there publicly accessible ports?",
@@ -60,22 +60,23 @@ iterations = [
             "Monkey agents authenticate with C&C",
             "Prevent MITM from sending configs to running monkeys",
             "Users can provide signed certs",
-            "Vulnerable dependencies identified by `npm`"
+            "Vulnerable dependencies identified by `npm`",
+            "Exported configs can be encrypted"
         ],
         "image": "hatches.jpg"
     },
     {
         "greyed": false,
-        "start_date": "June 4",
-        "end_date": "June 10",
+        "start_date": "June 18",
+        "end_date": "June 24",
         "description": "Fix as many bugs as possible, improving automated tests along the way.",
         "objectives": [],
         "image": "bugs.jpg"
     },
     {
         "greyed": false,
-        "start_date": "June 11",
-        "end_date": "June 17",
+        "start_date": "June 25",
+        "end_date": "July 1",
         "description": "Release Infection Monkey v1.11 with improved security features and linux distro compatibility.",
         "objectives": [],
         "image": "appimage_release.jpg"
