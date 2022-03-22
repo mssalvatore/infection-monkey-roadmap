@@ -124,9 +124,6 @@ a:hover, a:active, a:focus {
   text-decoration: none;
 }
 
-.timeline-card {
-  padding: 0 !important;
-}
 .timeline-card p {
   padding: 0 20px;
 }
