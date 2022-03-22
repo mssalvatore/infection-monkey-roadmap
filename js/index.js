@@ -1,110 +1,105 @@
 iterations = [
     {
-        "greyed": true,
-        "start_date": "March 1",
-        "end_date": "March 31",
-        "description": "Release Infection Monkey v1.10. We haven't released since August, so this will be one monster of a release.",
-        "objectives": [],
-        "image": "kraken.jpg"
-    },
-    {
-        "greyed": true,
-        "start_date": "April 1",
-        "end_date": "April 8",
-        "description": "Resolve old PRs and format code with Black.",
+        "greyed": false,
+        "start_date": "Nov 8, 2021",
+        "end_date": "Apr 7, 2022",
+        "description": "Agent Refactor",
         "objectives": [
-          "<del>Merge report refactoring</del>",
-          "<del>Merge AppImage</del>",
-          "<del>Run black on entire codebase</del>",
-          "<del>Resolve flake8 findings</del>",
-          "<del>Add pre-commit hooks for black, flake8, isort</del>",
-          "<del>CI pipeline uses same black, flake8, and isort rules as pre-commit hooks</del>",
-          "<del>Re-enable swimm in CI</del>"
+          "Improved architecture to support the next generation monkey",
+          "<del>Significant performance improvement</del>",
+          "<del>Improve UI responsiveness</del>",
+          "<del>Decrease testing time</del>",
+          "<del>Increased test coverage</del>",
+          "Reduce feature bloat",
+          "Resolve longstanding bugs",
+          "Reliable stopping"
         ],
-        "image": "paint_it_black.jpg"
+        "image": "https://i0.wp.com/red-green-refactor.com/wp-content/uploads/2020/03/devops-icon.png?fit=835%2C393&ssl=1&w=640"
     },
     {
         "greyed": false,
-        "start_date": "April 9",
-        "end_date": "June 10",
-        "description": "Find creative ways to improve our flow and do more with less.",
+        "start_date": "Apr 7, 2022",
+        "end_date": "Apr 21, 2022",
+        "description": "Technical Debt Reduction",
         "objectives": [
-            "Automated end-to-end tests (including performance tests)",
-            "<del>Properly clean up after builds</del>",
-            "Automated build process",
-            "<del>AppImage Package</del>",
-            "Expedite release process",
-            "<del>Properly freeze dependencies<del>",
-            "More efficiently update monkey zoo dev branch",
-            "Move monkey build scripts to monkey repo or their own repo",
-            "<del>Put unit tests in their own directory</del>",
-            "<del>Run eslint on commit</del>",
-            "<del>Add a set of pre-commit hooks that prevent non-compliant code from ever being added.</del>"
+          "Upgrade NodeJS version",
+          "Optimize UI build",
+          "Build optimization (time-bounded)",
+          "Blackbox test optimization",
+          "Reset simulation, keep config"
         ],
-        "image": "more_with_less.jpg"
+        "image": "https://images.ctfassets.net/q4zjipbua92t/Kcla3G0U86zPn9Nq7XlKC/9291bcea6736708be81f098e4d193668/img_tech-debt.png"
     },
     {
         "greyed": false,
-        "start_date": "May 7",
-        "end_date": "June 17",
-        "description": "Harden Infection Monkey against attack. Analyze code for weak security practices and fix them.",
+        "start_date": "Apr 21, 2022",
+        "end_date": "Aug 18, 2022",
+        "description": "Island Refactor",
         "objectives": [
-            "<del>Address dlint findings</del>",
-            "Check for and mitigate CSRF vulnerabilities",
-            "<del>Create users more securely<del>",
-            "<del>Don't run as root</del>",
-            "Create encryption keys and other sensitive files with better permissions.",
-            "Assess the security of mongodb. Are there publicly accessible ports?",
-            "<del>Hash password on server-side</del>",
-            "Remove insecure use of /tmp",
-            "Monkey agents authenticate with C&C",
-            "Prevent MITM from sending configs to running monkeys",
-            "Users can provide signed certs",
-            "Vulnerable dependencies identified by `npm`",
-            "Exported configs can be encrypted"
+          "Flexible telemetry",
+          "Flexible reporting",
+          "Strong service/resource architectural boundary",
+          "Database architectural boundary",
+          "Reduce database-related complexity",
+          "Logical and well-documented web API",
+          "Reduced complexity in report generation",
+          "Performance improvements",
         ],
-        "image": "hatches.jpg"
+        "image": "https://i.pinimg.com/600x315/7b/dd/1e/7bdd1ec5b272d2487c9d325b627477ff.jpg"
     },
     {
         "greyed": false,
-        "start_date": "June 18",
-        "end_date": "June 24",
-        "description": "Fix as many bugs as possible, improving automated tests along the way.",
-        "objectives": [],
-        "image": "bugs.jpg"
+        "start_date": "Aug 18, 2022",
+        "end_date": "Oct 14, 2022",
+        "description": "Plugin Infrastructure",
+        "objectives": [
+            "Slim down the agent",
+            "Enable agent to load plugins dynamically at runtime",
+            "Ability for Island to download new plugins",
+            "Only run signed plugins",
+            "Add reporting plugin points to Island",
+            "Define plugins",
+        ],
+        "image": "https://icon-library.com/images/plugin-icon/plugin-icon-6.jpg"
     },
     {
         "greyed": false,
-        "start_date": "June 25",
-        "end_date": "July 1",
-        "description": "Release Infection Monkey v1.11 with improved security features and linux distro compatibility.",
-        "objectives": [],
-        "image": "appimage_release.jpg"
+        "start_date": "Oct 14, 2022",
+        "end_date": "Nov 3, 2022",
+        "description": "Credential Collectors as Plugins",
+        "objectives": [
+            "Define collector plugin interface",
+            "Mimikatz collector as plugin",
+            "SSH collector as plugin",
+            "Refactor SSH collector",
+            "Document collector plugin interface",
+            "Add new collector to exercise the interface",
+        ],
+        "image": "https://cdn3.iconfinder.com/data/icons/spy/500/hack-512.png"
     },
     {
         "greyed": false,
-        "start_date": "TBD",
-        "end_date": "TBD",
-        "description": "Add scenarios wizard that helps users configure and run breach & attack simulations quickly.",
-        "objectives": [],
-        "image": "lightning.jpg"
+        "start_date": "Nov 3, 2022",
+        "end_date": "Dec 1, 2022",
+        "description": "Payloads as plugins",
+        "objectives": [
+          "Define payload plugin interface",
+          "Transform ransomware into plugin",
+          "Transform ransomware report into plugin",
+          "Add cryptominer plugin to exercise the interface"
+        ],
+        "image": "https://cdn-icons-png.flaticon.com/512/1995/1995756.png"
     },
     {
         "greyed": false,
-        "start_date": "TBD",
-        "end_date": "TBD",
-        "description": "Add ransomware simulation capability.",
-        "objectives": [],
-        "image": "ransom.jpg"
+        "start_date": "Dec 1, 2022",
+        "end_date": "Dec 22, 2022",
+        "description": '"Polymorphic" agents',
+        "objectives": [
+          "Each agent has a different hash",
+        ],
+        "image": "images/dna.png"
     },
-    {
-        "greyed": false,
-        "start_date": "TBD",
-        "end_date": "TBD",
-        "description": "Release Infection Monkey v1.12 with awesome new ransomware and scenarios features.",
-        "objectives": [],
-        "image": "awesome.jpg"
-    }
 ];
 
 class TimelineRenderer {
