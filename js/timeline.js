@@ -1,24 +1,24 @@
 class TimelineRenderer {
-  constructor(iterations) {
+  constructor(milestones) {
     this.even = true;
-    this.iterations = iterations
+    this.milestones = milestones
     console.log(document.URL)
   }
   
 	render() {
-		let iterationsHTML = '';
+		let milestonesHTML = '';
 
-		for (let i of this.iterations) {
-			iterationsHTML += this.renderIterationCard(i);
+		for (let i of this.milestones) {
+			milestonesHTML += this.renderMilestoneCard(i);
 		}
-		return iterationsHTML;
+		return milestonesHTML;
   }
 
-	renderIterationCard(iteration) {
+	renderMilestoneCard(milestone) {
 		let side = this.even ? "Left" : "Right";
 		this.even = ! this.even;
 
-    let opacity = iteration.greyed ? "greyed" : "";
+    let opacity = milestone.greyed ? "greyed" : "";
 
     return (
       `<div class="timeline-item">
@@ -26,12 +26,12 @@ class TimelineRenderer {
 
         <div class="timeline-content timeline-card ${opacity} js--fadeIn${side}">
         	<div class="timeline-img-header">
-				<img class="meme" src="${iteration.image}">
+				<img class="meme" src="${milestone.image}">
         	</div>
-            <div class="date">${iteration.start_date} - ${iteration.end_date}</div>
+            <div class="date">${milestone.start_date} - ${milestone.end_date}</div>
             <div class="description">
-                <p>${iteration.description}</p>
-                ${this.renderList(iteration.objectives)}
+                <p>${milestone.description}</p>
+                ${this.renderList(milestone.objectives)}
             </div>
           <a class="bnt-more" href="javascript:void(0)">More</a>
         </div>
@@ -54,8 +54,8 @@ class TimelineRenderer {
   }
 }
 
-function renderTimeline(iterations) {
-	let renderer = new TimelineRenderer(iterations)
+function renderTimeline(milestones) {
+	let renderer = new TimelineRenderer(milestones)
   document.getElementById("timeline-container").innerHTML = renderer.render();
 }
 
@@ -112,7 +112,7 @@ $(function(){
   $.getJSON(document.URL + "roadmap.json", render);
 });
 
-function render(iterations) {
-  renderTimeline(iterations);
+function render(milestones) {
+  renderTimeline(milestones);
   fadeIn();
 }
