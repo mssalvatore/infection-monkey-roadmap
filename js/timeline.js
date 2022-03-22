@@ -1,116 +1,14 @@
-iterations = [
-    {
-        "greyed": false,
-        "start_date": "Nov 8, 2021",
-        "end_date": "Apr 7, 2022",
-        "description": "Agent Refactor",
-        "objectives": [
-          "Improved architecture to support the next generation monkey",
-          "<del>Significant performance improvement</del>",
-          "<del>Improve UI responsiveness</del>",
-          "<del>Decrease testing time</del>",
-          "<del>Increased test coverage</del>",
-          "Reduce feature bloat",
-          "Resolve longstanding bugs",
-          "Reliable stopping"
-        ],
-        "image": "https://i0.wp.com/red-green-refactor.com/wp-content/uploads/2020/03/devops-icon.png?fit=835%2C393&ssl=1&w=640"
-    },
-    {
-        "greyed": false,
-        "start_date": "Apr 7, 2022",
-        "end_date": "Apr 21, 2022",
-        "description": "Technical Debt Reduction",
-        "objectives": [
-          "Upgrade NodeJS version",
-          "Optimize UI build",
-          "Build optimization (time-bounded)",
-          "Blackbox test optimization",
-          "Reset simulation, keep config"
-        ],
-        "image": "https://images.ctfassets.net/q4zjipbua92t/Kcla3G0U86zPn9Nq7XlKC/9291bcea6736708be81f098e4d193668/img_tech-debt.png"
-    },
-    {
-        "greyed": false,
-        "start_date": "Apr 21, 2022",
-        "end_date": "Aug 18, 2022",
-        "description": "Island Refactor",
-        "objectives": [
-          "Flexible telemetry",
-          "Flexible reporting",
-          "Strong service/resource architectural boundary",
-          "Database architectural boundary",
-          "Reduce database-related complexity",
-          "Logical and well-documented web API",
-          "Reduced complexity in report generation",
-          "Performance improvements",
-        ],
-        "image": "https://i.pinimg.com/600x315/7b/dd/1e/7bdd1ec5b272d2487c9d325b627477ff.jpg"
-    },
-    {
-        "greyed": false,
-        "start_date": "Aug 18, 2022",
-        "end_date": "Oct 14, 2022",
-        "description": "Plugin Infrastructure",
-        "objectives": [
-            "Slim down the agent",
-            "Enable agent to load plugins dynamically at runtime",
-            "Ability for Island to download new plugins",
-            "Only run signed plugins",
-            "Add reporting plugin points to Island",
-            "Define plugins",
-        ],
-        "image": "https://icon-library.com/images/plugin-icon/plugin-icon-6.jpg"
-    },
-    {
-        "greyed": false,
-        "start_date": "Oct 14, 2022",
-        "end_date": "Nov 3, 2022",
-        "description": "Credential Collectors as Plugins",
-        "objectives": [
-            "Define collector plugin interface",
-            "Mimikatz collector as plugin",
-            "SSH collector as plugin",
-            "Refactor SSH collector",
-            "Document collector plugin interface",
-            "Add new collector to exercise the interface",
-        ],
-        "image": "https://cdn3.iconfinder.com/data/icons/spy/500/hack-512.png"
-    },
-    {
-        "greyed": false,
-        "start_date": "Nov 3, 2022",
-        "end_date": "Dec 1, 2022",
-        "description": "Payloads as plugins",
-        "objectives": [
-          "Define payload plugin interface",
-          "Transform ransomware into plugin",
-          "Transform ransomware report into plugin",
-          "Add cryptominer plugin to exercise the interface"
-        ],
-        "image": "https://cdn-icons-png.flaticon.com/512/1995/1995756.png"
-    },
-    {
-        "greyed": false,
-        "start_date": "Dec 1, 2022",
-        "end_date": "Dec 22, 2022",
-        "description": '"Polymorphic" agents',
-        "objectives": [
-          "Each agent has a different hash",
-        ],
-        "image": "images/dna.png"
-    },
-];
-
 class TimelineRenderer {
-  constructor() {
+  constructor(iterations) {
     this.even = true;
+    this.iterations = iterations
+    console.log(document.URL)
   }
   
 	render() {
-		let iterationsHTML = ''
+		let iterationsHTML = '';
 
-		for (let i of iterations) {
+		for (let i of this.iterations) {
 			iterationsHTML += this.renderIterationCard(i);
 		}
 		return iterationsHTML;
@@ -156,8 +54,8 @@ class TimelineRenderer {
   }
 }
 
-function renderTimeline() {
-	let renderer = new TimelineRenderer()
+function renderTimeline(iterations) {
+	let renderer = new TimelineRenderer(iterations)
   document.getElementById("timeline-container").innerHTML = renderer.render();
 }
 
@@ -211,6 +109,10 @@ function fadeIn() {
 }
 
 $(function(){
-  renderTimeline();
-  fadeIn();
+  $.getJSON(document.URL + "roadmap.json", render);
 });
+
+function render(iterations) {
+  renderTimeline(iterations);
+  fadeIn();
+}
