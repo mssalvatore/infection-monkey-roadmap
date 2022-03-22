@@ -133,7 +133,7 @@ class TimelineRenderer {
 
         <div class="timeline-content timeline-card ${opacity} js--fadeIn${side}">
         	<div class="timeline-img-header">
-				<img class="meme" src="./images/${iteration.image}">
+				<img class="meme" src="${iteration.image}">
         	</div>
             <div class="date">${iteration.start_date} - ${iteration.end_date}</div>
             <div class="description">
