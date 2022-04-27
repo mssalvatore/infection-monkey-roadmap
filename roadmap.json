@@ -1,32 +1,32 @@
 [
     {
-        "greyed": false,
+        "greyed": true,
         "start_date": "Nov 8, 2021",
         "end_date": "Apr 7, 2022",
         "description": "Agent Refactor",
         "objectives": [
-            "Improved architecture to support the next generation monkey",
+            "<del>Improved architecture to support the next generation monkey</del>",
             "<del>Significant performance improvement</del>",
             "<del>Improve UI responsiveness</del>",
             "<del>Decrease testing time</del>",
             "<del>Increased test coverage</del>",
-            "Reduce feature bloat",
-            "Resolve longstanding bugs",
-            "Reliable stopping"
+            "<del>Reduce feature bloat</del>",
+            "<del>Resolve longstanding bugs</del>",
+            "<del>Reliable stopping</del>"
         ],
         "image": "https://i0.wp.com/red-green-refactor.com/wp-content/uploads/2020/03/devops-icon.png?fit=835%2C393&ssl=1&w=640"
     },
     {
-        "greyed": false,
+        "greyed": true,
         "start_date": "Apr 7, 2022",
         "end_date": "Apr 21, 2022",
         "description": "Technical Debt Reduction",
         "objectives": [
-            "Upgrade NodeJS version",
-            "Optimize UI build",
-            "Build optimization (time-bounded)",
-            "Blackbox test optimization",
-            "Reset simulation, keep config"
+            "<del>Upgrade NodeJS version</del>",
+            "<del>Optimize UI build</del>",
+            "<del>Build optimization (time-bounded)</del>",
+            "<del>Blackbox test optimization</del>",
+            "<del>Reset simulation, keep config</del>"
         ],
         "image": "https://images.ctfassets.net/q4zjipbua92t/Kcla3G0U86zPn9Nq7XlKC/9291bcea6736708be81f098e4d193668/img_tech-debt.png"
     },
