@@ -163,6 +163,7 @@ blockquote {
 .description p {
     font-size: 2em;
     font-weight: bold;
+    text-align: center;
 }
 
 @media screen and (max-width: 768px) {

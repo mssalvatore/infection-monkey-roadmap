@@ -31,7 +31,8 @@ class TimelineRenderer {
             <div class="date">${milestone.start_date} - ${milestone.end_date}</div>
             <div class="description">
                 <p>${milestone.description}</p>
-                ${this.renderList(milestone.objectives)}
+                ${this.renderList("Tasks", milestone.tasks)}
+                ${this.renderList("Benefits", milestone.benefits)}
             </div>
           <a class="bnt-more" href="javascript:void(0)">More</a>
         </div>
@@ -39,18 +40,18 @@ class TimelineRenderer {
     );
 	}
 
-  renderList(objectives) {
-		if (objectives.length == 0) {
+  renderList(title, items) {
+		if (items.length == 0) {
 			return ""
 		}
 
-		let objective_list = '<ul>';
-		for (let o of objectives) {
-			objective_list += `\n                   <li>${o}</li>`;
+		let item_list = '                <ul>';
+		for (let o of items) {
+			item_list += `\n                   <li>${o}</li>`;
 		}
-		objective_list += '\n                </ul>';
+		item_list += '\n                </ul>';
 
-		return(objective_list);
+		return("<h3>" + title + "</h3>\n" + item_list);
   }
 }
 
