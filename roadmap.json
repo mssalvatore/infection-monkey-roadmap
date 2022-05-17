@@ -55,8 +55,11 @@
         "benefits": [
             "Reduced database-related complexity",
             "Reduced complexity in report generation",
+						"Reduction in number of support requests",
+						"Users can programatically control Infection Monkey",
             "Improved performance",
-            "New features can be added more rapidly"
+            "New features can be added more rapidly",
+						"Accelerate development activities"
         ],
         "image": "https://i.pinimg.com/600x315/7b/dd/1e/7bdd1ec5b272d2487c9d325b627477ff.jpg"
     },
@@ -76,7 +79,10 @@
 						"Enables the agent to be slimmed down",
 						"Reduced build time",
 						"Reduced testing time",
-						"Enables rapid feature development"
+						"Enables rapid feature development",
+						"Allows development to respond more rapidly to market demands",
+						"Allows community members to more easily contribute features",
+						"Allows development team to support customers more efficiently"
 
         ],
         "image": "https://icon-library.com/images/plugin-icon/plugin-icon-6.jpg"
@@ -98,8 +104,11 @@
 						"Enables the agent to be slimmed down",
 						"Reduced build time",
 						"Reduced testing time",
+						"Agents are less likely to be detected by EDR/Antivirus",
 						"Enables rapid feature development",
-						"Agents are less likely to be detected by EDR/Antivirus"
+						"Allows development to respond more rapidly to market demands",
+						"Allows community members to more easily contribute features",
+						"Allows development team to support customers more efficiently"
         ],
         "image": "https://cdn3.iconfinder.com/data/icons/spy/500/hack-512.png"
     },
@@ -118,7 +127,10 @@
 						"Enables the agent to be slimmed down",
 						"Reduced build time",
 						"Reduced testing time",
-						"Enables rapid feature development"
+						"Enables rapid feature development",
+						"Allows development to respond more rapidly to market demands",
+						"Allows community members to more easily contribute features",
+						"Allows development team to support customers more efficiently"
         ],
         "image": "https://cdn-icons-png.flaticon.com/512/1995/1995756.png"
     },
