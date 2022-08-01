@@ -40,7 +40,7 @@
     {
         "greyed": false,
         "start_date": "Apr 21, 2022",
-        "end_date": "Aug 18, 2022",
+        "end_date": "Oct 20, 2022",
         "description": "Island Refactor",
         "tasks": [
             "Add a strong service/resource architectural boundary",
@@ -65,8 +65,8 @@
     },
     {
         "greyed": false,
-        "start_date": "Aug 18, 2022",
-        "end_date": "Oct 14, 2022",
+        "start_date": "Oct 20, 2022",
+        "end_date": "Dec 22, 2022",
         "description": "Plugin Infrastructure",
         "tasks": [
             "Define plugin specification",
@@ -89,8 +89,8 @@
     },
     {
         "greyed": false,
-        "start_date": "Oct 14, 2022",
-        "end_date": "Nov 3, 2022",
+        "start_date": "Dec 22, 2022",
+        "end_date": "Jan 26, 2023",
         "description": "Credential Collectors as Plugins",
         "tasks": [
             "Define collector plugin interface",
@@ -114,8 +114,8 @@
     },
     {
         "greyed": false,
-        "start_date": "Nov 3, 2022",
-        "end_date": "Dec 1, 2022",
+        "start_date": "Jan 26, 2023",
+        "end_date": "Mar 2, 2023",
         "description": "Payloads as plugins",
         "tasks": [
             "Define payload plugin interface",
@@ -136,8 +136,8 @@
     },
     {
         "greyed": false,
-        "start_date": "Dec 1, 2022",
-        "end_date": "Dec 22, 2022",
+        "start_date": "Mar 2, 2023",
+        "end_date": "Mar 30, 2023",
         "description": "\"Polymorphic\" agents",
         "tasks": [
             "Each agent has a different hash"
