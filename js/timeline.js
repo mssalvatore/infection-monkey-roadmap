@@ -26,7 +26,7 @@ class TimelineRenderer {
 
         <div class="timeline-content timeline-card ${opacity} js--fadeIn${side}">
           <div class="timeline-img-header">
-        <img class="meme" src="${milestone.image}">
+            <img class="meme" src="${milestone.image}">
           </div>
             <div class="date">${milestone.start_date} - ${milestone.end_date}</div>
             <div class="description">
