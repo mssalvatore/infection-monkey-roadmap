@@ -5,11 +5,11 @@
         "end_date": "Apr 7, 2022",
         "description": "Agent Refactor",
         "tasks": [
-            "<del>Improve architecture to support the next generation monkey</del>",
-            "<del>Improve UI responsiveness</del>",
-            "<del>Reduce feature bloat</del>",
-            "<del>Resolve longstanding bugs</del>",
-            "<del>Stop agents reliably</del>"
+            "Improve architecture to support the next generation monkey",
+            "Improve UI responsiveness",
+            "Reduce feature bloat",
+            "Resolve longstanding bugs",
+            "Stop agents reliably"
         ],
         "benefits": [
             "Significant performance improvement",
@@ -25,11 +25,11 @@
         "end_date": "Apr 21, 2022",
         "description": "Technical Debt Reduction",
         "tasks": [
-            "<del>Upgrade NodeJS version</del>",
-            "<del>Optimize UI build</del>",
-            "<del>Optimization agent build</del>",
-            "<del>Optimize blackbox tests</del>",
-            "<del>Add option to keep configuration when resetting simulation</del>"
+            "Upgrade NodeJS version",
+            "Optimize UI build",
+            "Optimization agent build",
+            "Optimize blackbox tests",
+            "Add option to keep configuration when resetting simulation"
         ],
         "benefits": [
             "Decreased testing time",
@@ -38,9 +38,9 @@
         "image": "images/technical-debt-reduction.png"
     },
     {
-        "greyed": false,
+        "greyed": true,
         "start_date": "Apr 21, 2022",
-        "end_date": "Oct 20, 2022",
+        "end_date": "October 20, 2022",
         "description": "Island Refactor",
         "tasks": [
             "Add a strong service/resource architectural boundary",
@@ -48,103 +48,95 @@
             "Refactor telemetry to be more flexible",
             "Refactor reporting to be more flexible",
             "Refactor API to be consistent and well-documented",
-						"Prepare infrastructure to support pluggable services",
-						"Prepare infrastructure to support pluggable resources",
-						"Prepare infrastructure to support pluggable data processors"
+            "Prepare infrastructure to support pluggable services",
+            "Prepare infrastructure to support pluggable resources",
+            "Prepare infrastructure to support pluggable data processors"
         ],
         "benefits": [
             "Reduced database-related complexity",
             "Reduced complexity in report generation",
-						"Reduction in number of support requests",
-						"Users can programatically control Infection Monkey",
+            "Reduction in number of support requests",
+            "Users can programatically control Infection Monkey",
             "Improved performance",
             "New features can be added more rapidly",
-						"Accelerate development activities"
+            "Accelerate development activities"
         ],
         "image": "images/island-refactor.jpg"
     },
     {
-        "greyed": false,
+        "greyed": true,
         "start_date": "Oct 20, 2022",
-        "end_date": "Dec 22, 2022",
+        "end_date": "Feb 10, 2023",
         "description": "Plugin Infrastructure",
         "tasks": [
             "Define plugin specification",
-						"Create prototype SDK and process for building plugins",
+            "Create prototype plugins",
             "Enable agent to load plugins dynamically at runtime",
-            "Only run signed plugins",
-            "Add reporting plugin points to the Island"
+            "Run plugins in isolated environments to avoid dependency conflicts"
         ],
         "benefits": [
-						"Enables the agent to be slimmed down",
-						"Reduced build time",
-						"Reduced testing time",
-						"Enables rapid feature development",
-						"Allows development to respond more rapidly to market demands",
-						"Allows community members to more easily contribute features",
-						"Allows development team to support customers more efficiently"
+            "Enables the agent to be slimmed down",
+            "Reduced build time",
+            "Reduced testing time",
+            "Enables rapid feature development",
+            "Allows development to respond more rapidly to market demands",
+            "Allows community members to more easily contribute features",
+            "Allows development team to support customers more efficiently"
 
         ],
         "image": "images/plugin-infrastructure.png"
     },
     {
         "greyed": false,
-        "start_date": "Dec 22, 2022",
-        "end_date": "Jan 26, 2023",
-        "description": "Credential Collectors as Plugins",
+        "start_date": "Feb 10, 2023",
+        "end_date": "Apr 14, 2023",
+        "description": "v2.1.0 - Forward Progress",
         "tasks": [
-            "Define collector plugin interface",
-            "Mimikatz collector as plugin",
-            "SSH collector as plugin",
-            "Refactor SSH collector",
-            "Document collector plugin interface",
-            "Add new collector to exercise the interface"
+            "Upgrade to MongoDB 6.0",
+            "Improved MSI build process",
+            "Improve scanning interface/intelligence",
+            "Secure all endpoints",
+            "Upgrade to Python>=3.9",
+            "SMB exploiter as a plugin",
+            "Minor bug fixes",
+            "Secure `SystemSingleton`"
         ],
         "benefits": [
-						"Enables the agent to be slimmed down",
-						"Reduced build time",
-						"Reduced testing time",
-						"Agents are less likely to be detected by EDR/Antivirus",
-						"Enables rapid feature development",
-						"Allows development to respond more rapidly to market demands",
-						"Allows community members to more easily contribute features",
-						"Allows development team to support customers more efficiently"
+            "Exploiters behave more intelligently",
+            "Scanning interface is stablized",
+            "Brute force plugins can be greatly sped up",
+            "Reduced build time",
+            "Reduced testing time",
+            "Agents are less likely to be detected by EDR/Antivirus"
         ],
-        "image": "images/credential-collectors-plugins.png"
+        "image": "images/chug-along.png"
     },
     {
         "greyed": false,
-        "start_date": "Jan 26, 2023",
-        "end_date": "Mar 2, 2023",
-        "description": "Payloads as plugins",
+        "start_date": "April 14, 2022",
+        "end_date": "June 8, 2023",
+        "description": "v2.2.0 - More Plugin Interfaces",
         "tasks": [
+            "Allow pluggable event types",
+            "Define collector plugin interface",
+            "Redesign Mimikatz collector as plugin",
+            "Redesign SSH collector as plugin",
+            "Design pluggable reporting",
             "Define payload plugin interface",
             "Transform ransomware into plugin",
             "Transform ransomware report into plugin",
-            "Add cryptominer plugin to exercise the interface"
+            "Cryptominer payload"
         ],
         "benefits": [
-						"Enables the agent to be slimmed down",
-						"Reduced build time",
-						"Reduced testing time",
-						"Enables rapid feature development",
-						"Allows development to respond more rapidly to market demands",
-						"Allows community members to more easily contribute features",
-						"Allows development team to support customers more efficiently"
+            "Enables the agent to be slimmed down",
+            "Agents are less likely to be detected by EDR/Antivirus",
+            "Reduced build time",
+            "Reduced testing time",
+            "Enables rapid feature development",
+            "Allows development to respond more rapidly to market demands",
+            "Allows community members to more easily contribute features",
+            "Allows development team to support customers more efficiently"
         ],
-        "image": "images/payloads-plugins.png"
-    },
-    {
-        "greyed": false,
-        "start_date": "Mar 2, 2023",
-        "end_date": "Mar 30, 2023",
-        "description": "\"Polymorphic\" agents",
-        "tasks": [
-            "Each agent has a different hash"
-        ],
-        "benefits": [
-						"Agents are less likely to be detected by EDR/Antivirus"
-        ],
-        "image": "images/dna.png"
+        "image": "images/more-plugin-interfaces.jpg"
     }
 ]
