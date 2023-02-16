@@ -224,4 +224,17 @@ blockquote {
 ul.tasks {
     list-style-type: none;
     padding-left: 1.25em;
+
+}
+.description {
+    position: relative;
+}
+
+.draft {
+    font-size: 8vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    opacity: 0.5;
 }

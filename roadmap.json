@@ -87,7 +87,6 @@
         "image": "images/plugin-infrastructure.png"
     },
     {
-        "greyed": false,
         "start_date": "Feb 10, 2023",
         "end_date": "Apr 14, 2023",
         "description": "v2.1.0 - Forward Progress",
@@ -112,7 +111,7 @@
         "image": "images/chug-along.png"
     },
     {
-        "greyed": false,
+        "draft": true,
         "start_date": "April 14, 2022",
         "end_date": "June 8, 2023",
         "description": "v2.2.0 - More Plugin Interfaces",

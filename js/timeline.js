@@ -19,6 +19,7 @@ class TimelineRenderer {
     this.even = ! this.even;
 
     let opacity = milestone.greyed ? "greyed" : "";
+    let draft = milestone.draft ? "draft": "";
 
     return (
       `<div class="timeline-item">
@@ -30,6 +31,7 @@ class TimelineRenderer {
           </div>
             <div class="date">${milestone.start_date} - ${milestone.end_date}</div>
             <div class="description">
+                ${milestone.draft ? `<div class="draft">DRAFT</div>` : ""}
                 <p>${milestone.description}</p>
                 ${this.renderList("Tasks", milestone.tasks)}
                 ${this.renderList("Benefits", milestone.benefits)}
