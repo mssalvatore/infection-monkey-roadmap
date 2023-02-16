@@ -5,11 +5,11 @@
         "end_date": "Apr 7, 2022",
         "description": "Agent Refactor",
         "tasks": [
-            "Improve architecture to support the next generation monkey",
-            "Improve UI responsiveness",
-            "Reduce feature bloat",
-            "Resolve longstanding bugs",
-            "Stop agents reliably"
+            "<img class=status-icon src=\"images/complete.png\"/> Improve architecture to support the next-gen agent",
+            "<img class=status-icon src=\"images/complete.png\"/> Improve UI responsiveness",
+            "<img class=status-icon src=\"images/complete.png\"/> Reduce feature bloat",
+            "<img class=status-icon src=\"images/complete.png\"/> Resolve longstanding bugs",
+            "<img class=status-icon src=\"images/complete.png\"/> Stop agents reliably"
         ],
         "benefits": [
             "Significant performance improvement",
@@ -25,11 +25,11 @@
         "end_date": "Apr 21, 2022",
         "description": "Technical Debt Reduction",
         "tasks": [
-            "Upgrade NodeJS version",
-            "Optimize UI build",
-            "Optimization agent build",
-            "Optimize blackbox tests",
-            "Add option to keep configuration when resetting simulation"
+            "<img class=status-icon src=\"images/complete.png\"/> Upgrade NodeJS version",
+            "<img class=status-icon src=\"images/complete.png\"/> Optimize UI build",
+            "<img class=status-icon src=\"images/complete.png\"/> Optimization agent build",
+            "<img class=status-icon src=\"images/complete.png\"/> Optimize blackbox tests",
+            "<img class=status-icon src=\"images/complete.png\"/> Add option to keep configuration when resetting simulation"
         ],
         "benefits": [
             "Decreased testing time",
@@ -43,14 +43,14 @@
         "end_date": "October 20, 2022",
         "description": "Island Refactor",
         "tasks": [
-            "Add a strong service/resource architectural boundary",
-            "Add an architectural boundary around the database",
-            "Refactor telemetry to be more flexible",
-            "Refactor reporting to be more flexible",
-            "Refactor API to be consistent and well-documented",
-            "Prepare infrastructure to support pluggable services",
-            "Prepare infrastructure to support pluggable resources",
-            "Prepare infrastructure to support pluggable data processors"
+            "<img class=status-icon src=\"images/complete.png\"/> Add a strong service/resource architectural boundary",
+            "<img class=status-icon src=\"images/complete.png\"/> Add an architectural boundary around the database",
+            "<img class=status-icon src=\"images/complete.png\"/> Refactor telemetry to be more flexible",
+            "<img class=status-icon src=\"images/complete.png\"/> Refactor reporting to be more flexible",
+            "<img class=status-icon src=\"images/complete.png\"/> Refactor API to be consistent and well-documented",
+            "<img class=status-icon src=\"images/complete.png\"/> Prepare infrastructure to support pluggable services",
+            "<img class=status-icon src=\"images/complete.png\"/> Prepare infrastructure to support pluggable resources",
+            "<img class=status-icon src=\"images/complete.png\"/> Prepare infrastructure to support pluggable data processors"
         ],
         "benefits": [
             "Reduced database-related complexity",
@@ -69,10 +69,10 @@
         "end_date": "Feb 10, 2023",
         "description": "Plugin Infrastructure",
         "tasks": [
-            "Define plugin specification",
-            "Create prototype plugins",
-            "Enable agent to load plugins dynamically at runtime",
-            "Run plugins in isolated environments to avoid dependency conflicts"
+            "<img class=status-icon src=\"images/complete.png\"/> Define plugin specification",
+            "<img class=status-icon src=\"images/complete.png\"/> Create prototype plugins",
+            "<img class=status-icon src=\"images/complete.png\"/> Enable agent to load plugins dynamically at runtime",
+            "<img class=status-icon src=\"images/complete.png\"/> Run plugins in isolated environments to avoid dependency conflicts"
         ],
         "benefits": [
             "Enables the agent to be slimmed down",
@@ -92,14 +92,14 @@
         "end_date": "Apr 14, 2023",
         "description": "v2.1.0 - Forward Progress",
         "tasks": [
-            "Upgrade to MongoDB 6.0",
-            "Improved MSI build process",
-            "Improve scanning interface/intelligence",
-            "Secure all endpoints",
-            "Upgrade to Python>=3.9",
-            "SMB exploiter as a plugin",
-            "Minor bug fixes",
-            "Secure `SystemSingleton`"
+            "<img class=status-icon src=\"images/complete.png\"/> Upgrade to MongoDB 6.0",
+            "<img class=status-icon src=\"images/incomplete.png\"/> Improved MSI build process",
+            "<img class=status-icon src=\"images/incomplete.png\"/> Improve scanning interface/intelligence",
+            "<img class=status-icon src=\"images/incomplete.png\"/> Secure all endpoints",
+            "<img class=status-icon src=\"images/incomplete.png\"/> Upgrade to Python>=3.9",
+            "<img class=status-icon src=\"images/incomplete.png\"/> SMB exploiter as a plugin",
+            "<img class=status-icon src=\"images/incomplete.png\"/> Minor bug fixes",
+            "<img class=status-icon src=\"images/incomplete.png\"/> Secure `SystemSingleton`"
         ],
         "benefits": [
             "Exploiters behave more intelligently",
@@ -117,15 +117,15 @@
         "end_date": "June 8, 2023",
         "description": "v2.2.0 - More Plugin Interfaces",
         "tasks": [
-            "Allow pluggable event types",
-            "Define collector plugin interface",
-            "Redesign Mimikatz collector as plugin",
-            "Redesign SSH collector as plugin",
-            "Design pluggable reporting",
-            "Define payload plugin interface",
-            "Transform ransomware into plugin",
-            "Transform ransomware report into plugin",
-            "Cryptominer payload"
+            "<img class=status-icon src=\"images/incomplete.png\"/> Allow pluggable event types",
+            "<img class=status-icon src=\"images/incomplete.png\"/> Define collector plugin interface",
+            "<img class=status-icon src=\"images/incomplete.png\"/> Redesign Mimikatz collector as plugin",
+            "<img class=status-icon src=\"images/incomplete.png\"/> Redesign SSH collector as plugin",
+            "<img class=status-icon src=\"images/incomplete.png\"/> Design pluggable reporting",
+            "<img class=status-icon src=\"images/incomplete.png\"/> Define payload plugin interface",
+            "<img class=status-icon src=\"images/incomplete.png\"/> Transform ransomware into plugin",
+            "<img class=status-icon src=\"images/incomplete.png\"/> Transform ransomware report into plugin",
+            "<img class=status-icon src=\"images/incomplete.png\"/> Cryptominer payload"
         ],
         "benefits": [
             "Enables the agent to be slimmed down",

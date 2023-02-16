@@ -45,7 +45,7 @@ class TimelineRenderer {
       return ""
     }
 
-    let item_list = '                <ul>';
+    let item_list = `                <ul class=${title.toLowerCase()}>`;
     for (let o of items) {
       item_list += `\n                   <li>${o}</li>`;
     }

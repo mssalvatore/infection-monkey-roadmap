@@ -216,3 +216,12 @@ blockquote {
 .greyed {
     opacity: 0.4;
 }
+
+.status-icon {
+    height: 0.9em;
+}
+
+ul.tasks {
+    list-style-type: none;
+    padding-left: 1.25em;
+}
