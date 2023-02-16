@@ -20,9 +20,10 @@ class TimelineRenderer {
 
     let opacity = milestone.greyed ? "greyed" : "";
     let draft = milestone.draft ? "draft": "";
+    let in_progress = milestone.in_progress ? "in-progress": milestone.description.replace(/\W/g,'_');
 
     return (
-      `<div class="timeline-item">
+      `<div id="${in_progress}" class="timeline-item">
         <div class="timeline-img"></div>
 
         <div class="timeline-content timeline-card ${opacity} js--fadeIn${side}">
@@ -116,7 +117,45 @@ $(function(){
   $.getJSON(document.URL + "roadmap.json", render);
 });
 
+
+const SCROLL_DURATION = FADE_DURATION * 2;
+const scrollToTarget = function (target) {
+  const top = target.getBoundingClientRect().top;
+  const bottom = target.getBoundingClientRect().bottom;
+  const center = (top + bottom) / 2;
+
+  const startPos = window.pageYOffset;
+  const diff = center - (window.innerHeight / 2);
+
+  let startTime = null;
+  let requestId;
+
+  const loop = function (currentTime) {
+    if (!startTime) {
+      startTime = currentTime;
+    }
+
+    const time = currentTime - startTime;
+
+    const percent = Math.min(time / SCROLL_DURATION, 1);
+    window.scrollTo(0, startPos + diff * percent);
+
+    if (time < SCROLL_DURATION) {
+      requestId = window.requestAnimationFrame(loop);
+    } else {
+      window.cancelAnimationFrame(requestId);
+    }
+  };
+  requestId = window.requestAnimationFrame(loop);
+};
+
 function render(milestones) {
   renderTimeline(milestones);
   fadeIn();
+  window.onkeypress = function(event) {
+    if (event.key == "Enter") {
+      var in_progress_milestone = document.getElementById("in-progress");
+      scrollToTarget(in_progress_milestone);
+    }
+  }
 }

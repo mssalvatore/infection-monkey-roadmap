@@ -87,6 +87,7 @@
         "image": "images/plugin-infrastructure.png"
     },
     {
+        "in_progress": true,
         "start_date": "Feb 10, 2023",
         "end_date": "Apr 14, 2023",
         "description": "v2.1.0 - Forward Progress",
