@@ -62,6 +62,7 @@ function renderTimeline(milestones) {
   document.getElementById("timeline-container").innerHTML = renderer.render();
 }
 
+const FADE_DURATION = 500;
 function fadeIn() {
   window.sr = ScrollReveal();
 
@@ -75,7 +76,7 @@ function fadeIn() {
       origin: 'right',
       distance: '300px',
       easing: 'ease-in-out',
-      duration: 800,
+      duration: FADE_DURATION,
     });
 
   } else {
@@ -84,14 +85,14 @@ function fadeIn() {
       origin: 'left',
       distance: '300px',
       easing: 'ease-in-out',
-      duration: 800,
+      duration: FADE_DURATION,
     });
 
     sr.reveal('.js--fadeInRight', {
       origin: 'right',
       distance: '300px',
       easing: 'ease-in-out',
-      duration: 800,
+      duration: FADE_DURATION,
     });
 
   }
@@ -100,14 +101,14 @@ function fadeIn() {
       origin: 'left',
       distance: '300px',
       easing: 'ease-in-out',
-      duration: 800,
+      duration: FADE_DURATION,
     });
 
     sr.reveal('.js--fadeInRight', {
       origin: 'right',
       distance: '300px',
       easing: 'ease-in-out',
-      duration: 800,
+      duration: FADE_DURATION,
     });
 }
 
