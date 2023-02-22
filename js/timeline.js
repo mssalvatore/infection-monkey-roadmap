@@ -34,7 +34,7 @@ class TimelineRenderer {
             <div class="description">
                 ${milestone.draft ? `<div class="draft">DRAFT</div>` : ""}
                 <p>${milestone.description}</p>
-                ${this.renderList("Tasks", milestone.tasks)}
+                ${this.renderTaskList(milestone.tasks)}
                 ${this.renderList("Benefits", milestone.benefits)}
             </div>
           <a class="bnt-more" href="javascript:void(0)">More</a>
@@ -43,6 +43,16 @@ class TimelineRenderer {
     );
   }
 
+  renderTaskList(tasks) {
+    let list_items = [];
+    for (let t of tasks) {
+      let image = t.complete ? "complete.png" : "incomplete.png";
+      let description = t.strikethrough? `<del>${t.description}</del>` : t.description;
+      list_items.push(`<img class=status-icon src="images/${image}">&nbsp${description}`)
+    }
+
+    return(this.renderList("Tasks", list_items));
+  }
   renderList(title, items) {
     if (items.length == 0) {
       return ""
