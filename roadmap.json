@@ -93,10 +93,10 @@
         "description": "v2.1.0 - Forward Progress",
         "tasks": [
             "<img class=status-icon src=\"images/complete.png\"/> Upgrade to MongoDB 6.0",
-            "<img class=status-icon src=\"images/incomplete.png\"/> Improved MSI build process",
-            "<img class=status-icon src=\"images/incomplete.png\"/> Improve scanning interface/intelligence",
-            "<img class=status-icon src=\"images/incomplete.png\"/> Secure all endpoints",
+            "<img class=status-icon src=\"images/complete.png\"/> Improved MSI build process",
+            "<img class=status-icon src=\"images/complete.png\"/> Improve scanning interface/intelligence",
             "<img class=status-icon src=\"images/incomplete.png\"/> Upgrade to Python>=3.9",
+            "<img class=status-icon src=\"images/incomplete.png\"/> Secure all endpoints",
             "<img class=status-icon src=\"images/incomplete.png\"/> SMB exploiter as a plugin",
             "<img class=status-icon src=\"images/incomplete.png\"/> Minor bug fixes",
             "<img class=status-icon src=\"images/incomplete.png\"/> Secure `SystemSingleton`"
