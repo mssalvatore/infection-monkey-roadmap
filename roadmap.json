@@ -6,27 +6,27 @@
         "description": "Agent Refactor",
         "tasks": [
             {
-                "complete": true,
+                "status": "done",
                 "description": "Improve architecture to support the next-gen agent",
                 "strikethrough": false
             },
             {
-                "complete": true,
+                "status": "done",
                 "description": "Improve UI responsiveness",
                 "strikethrough": false
             },
             {
-                "complete": true,
+                "status": "done",
                 "description": "Reduce feature bloat",
                 "strikethrough": false
             },
             {
-                "complete": true,
+                "status": "done",
                 "description": "Resolve longstanding bugs",
                 "strikethrough": false
             },
             {
-                "complete": true,
+                "status": "done",
                 "description": "Stop agents reliably",
                 "strikethrough": false
             }
@@ -46,27 +46,27 @@
         "description": "Technical Debt Reduction",
         "tasks": [
             {
-                "complete": true,
+                "status": "done",
                 "description": "Upgrade NodeJS version",
                 "strikethrough": false
             },
             {
-                "complete": true,
+                "status": "done",
                 "description": "Optimize UI build",
                 "strikethrough": false
             },
             {
-                "complete": true,
+                "status": "done",
                 "description": "Optimization agent build",
                 "strikethrough": false
             },
             {
-                "complete": true,
+                "status": "done",
                 "description": "Optimize blackbox tests",
                 "strikethrough": false
             },
             {
-                "complete": true,
+                "status": "done",
                 "description": "Add option to keep configuration when resetting simulation",
                 "strikethrough": false
             }
@@ -84,42 +84,42 @@
         "description": "Island Refactor",
         "tasks": [
             {
-                "complete": true,
+                "status": "done",
                 "description": "Add a strong service/resource architectural boundary",
                 "strikethrough": false
             },
             {
-                "complete": true,
+                "status": "done",
                 "description": "Add an architectural boundary around the database",
                 "strikethrough": false
             },
             {
-                "complete": true,
+                "status": "done",
                 "description": "Refactor telemetry to be more flexible",
                 "strikethrough": false
             },
             {
-                "complete": true,
+                "status": "done",
                 "description": "Refactor reporting to be more flexible",
                 "strikethrough": false
             },
             {
-                "complete": true,
+                "status": "done",
                 "description": "Refactor API to be consistent and well-documented",
                 "strikethrough": false
             },
             {
-                "complete": true,
+                "status": "done",
                 "description": "Prepare infrastructure to support pluggable services",
                 "strikethrough": false
             },
             {
-                "complete": true,
+                "status": "done",
                 "description": "Prepare infrastructure to support pluggable resources",
                 "strikethrough": false
             },
             {
-                "complete": true,
+                "status": "done",
                 "description": "Prepare infrastructure to support pluggable data processors",
                 "strikethrough": false
             }
@@ -142,22 +142,22 @@
         "description": "Plugin Infrastructure",
         "tasks": [
             {
-                "complete": true,
+                "status": "done",
                 "description": "Define plugin specification",
                 "strikethrough": false
             },
             {
-                "complete": true,
+                "status": "done",
                 "description": "Create prototype plugins",
                 "strikethrough": false
             },
             {
-                "complete": true,
+                "status": "done",
                 "description": "Enable agent to load plugins dynamically at runtime",
                 "strikethrough": false
             },
             {
-                "complete": true,
+                "status": "done",
                 "description": "Run plugins in isolated environments to avoid dependency conflicts",
                 "strikethrough": false
             }
@@ -181,43 +181,48 @@
         "description": "v2.1.0 - Forward Progress",
         "tasks": [
             {
-                "complete": true,
+                "status": "done",
                 "description": "Upgrade to MongoDB 6.0",
                 "strikethrough": false
             },
             {
-                "complete": true,
+                "status": "done",
                 "description": "Improved MSI build process",
                 "strikethrough": false
             },
             {
-                "complete": true,
+                "status": "done",
                 "description": "Improve scanning interface/intelligence",
                 "strikethrough": false
             },
             {
-                "complete": false,
+                "status": "in-progress",
                 "description": "Upgrade to Python>=3.9",
                 "strikethrough": false
             },
             {
-                "complete": false,
+                "status": "in-progress",
                 "description": "Secure all endpoints",
                 "strikethrough": false
             },
             {
-                "complete": false,
-                "description": "SMB exploiter as a plugin",
+                "status": "todo",
+                "description": "Migrate SMB exploiter to a",
                 "strikethrough": false
             },
             {
-                "complete": false,
-                "description": "Minor bug fixes",
+                "status": "todo",
+                "description": "Smarter brute forcing",
                 "strikethrough": false
             },
             {
-                "complete": false,
+                "status": "todo",
                 "description": "Secure `SystemSingleton`",
+                "strikethrough": false
+            },
+            {
+                "status": "in-progress",
+                "description": "Minor bug fixes",
                 "strikethrough": false
             }
         ],
@@ -238,47 +243,47 @@
         "description": "v2.2.0 - More Plugin Interfaces",
         "tasks": [
             {
-                "complete": false,
+                "status": "todo",
                 "description": "Allow pluggable event types",
                 "strikethrough": false
             },
             {
-                "complete": false,
+                "status": "todo",
                 "description": "Define collector plugin interface",
                 "strikethrough": false
             },
             {
-                "complete": false,
+                "status": "todo",
                 "description": "Redesign Mimikatz collector as plugin",
                 "strikethrough": false
             },
             {
-                "complete": false,
+                "status": "todo",
                 "description": "Redesign SSH collector as plugin",
                 "strikethrough": false
             },
             {
-                "complete": false,
+                "status": "todo",
                 "description": "Design pluggable reporting",
                 "strikethrough": false
             },
             {
-                "complete": false,
+                "status": "todo",
                 "description": "Define payload plugin interface",
                 "strikethrough": false
             },
             {
-                "complete": false,
+                "status": "todo",
                 "description": "Transform ransomware into plugin",
                 "strikethrough": false
             },
             {
-                "complete": false,
+                "status": "todo",
                 "description": "Transform ransomware report into plugin",
                 "strikethrough": false
             },
             {
-                "complete": false,
+                "status": "todo",
                 "description": "Cryptominer payload",
                 "strikethrough": false
             }

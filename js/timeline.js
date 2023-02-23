@@ -46,7 +46,7 @@ class TimelineRenderer {
   renderTaskList(tasks) {
     let list_items = [];
     for (let t of tasks) {
-      let image = t.complete ? "complete.png" : "incomplete.png";
+      let image = t.status + ".png";
       let description = t.strikethrough? `<del>${t.description}</del>` : t.description;
       list_items.push(`<img class=status-icon src="images/${image}">&nbsp${description}`)
     }
