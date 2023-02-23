@@ -222,7 +222,7 @@
             },
             {
                 "status": "todo",
-                "description": "Migrate SMB exploiter to a",
+                "description": "Migrate SMB exploiter to a plugin",
                 "strikethrough": false
             },
             {
