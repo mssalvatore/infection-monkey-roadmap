@@ -202,6 +202,21 @@
             },
             {
                 "status": "in-progress",
+                "description": "One-touch Linux Agent build",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Publish Island Docker images to DockerHub",
+                "strikethrough": false
+            },
+            {
+                "status": "in-progress",
+                "description": "Replace custom authentication with OTS system",
+                "strikethrough": false
+            },
+            {
+                "status": "in-progress",
                 "description": "Secure all endpoints",
                 "strikethrough": false
             },
@@ -227,12 +242,17 @@
             }
         ],
         "benefits": [
-            "Exploiters behave more intelligently",
-            "Scanning interface is stablized",
+            "Community members are able to easily build Linux Agents",
+            "Improved Island installation experience (Docker)",
+            "Stabilized scanning interface",
+            "Improved security",
+            "Improved Island and Agent performance",
+            "Agents are less likely to be detected by EDR/Antivirus",
+            "Development team can use the latest Python features",
+            "Exploiters behave more intelligently (i.e. faster)",
             "Brute force plugins can be greatly sped up",
             "Reduced build time",
-            "Reduced testing time",
-            "Agents are less likely to be detected by EDR/Antivirus"
+            "Reduced testing time"
         ],
         "image": "images/chug-along.png"
     },
