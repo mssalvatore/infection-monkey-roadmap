@@ -201,7 +201,7 @@
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "One-touch Linux Agent build",
                 "strikethrough": false
             },
