@@ -196,7 +196,7 @@
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "Upgrade to Python>=3.9",
                 "strikethrough": false
             },
@@ -216,7 +216,7 @@
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
+                "status": "todo",
                 "description": "Secure all endpoints",
                 "strikethrough": false
             },
