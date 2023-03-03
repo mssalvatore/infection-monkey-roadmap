@@ -260,7 +260,7 @@
         "draft": true,
         "start_date": "April 14, 2022",
         "end_date": "June 8, 2023",
-        "description": "v2.2.0 - More Plugin Interfaces",
+        "description": "v2.2.0 - Install with no AV errors",
         "tasks": [
             {
                 "status": "todo",
@@ -284,7 +284,62 @@
             },
             {
                 "status": "todo",
+                "description": "Design a brute-force strategy component",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Migrate MSSQL exploiter to a plugin",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Migrate PowerShell exploiter to a plugin",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Migrate SSH exploiter to a plugin",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Migrate WMI exploiter to a plugin",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Migrate ZeroLogon exploiter to a plugin",
+                "strikethrough": false
+            }
+        ],
+        "benefits": [
+            "The Island can be installed on Windows without tripping EDR/Antivirus",
+            "The Agent will be significantly slimmer",
+            "Agents are much less likely to be detected by EDR/Antivirus",
+            "Reduced build time",
+            "Reduced testing time",
+            "Enables rapid feature development",
+            "Allows development to respond more rapidly to market demands",
+            "Allows community members to more easily contribute features",
+            "Allows development team to support customers more efficiently"
+        ],
+        "image": "images/laser-heist.jpg"
+    },
+    {
+        "draft": true,
+        "start_date": "June 8, 2022",
+        "end_date": "August 3, 2023",
+        "description": "v2.3.0 - Improved/Pluggable Reporting",
+        "tasks": [
+            {
+                "status": "todo",
                 "description": "Design pluggable reporting",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Design new \"timeline\" report",
                 "strikethrough": false
             },
             {
@@ -309,15 +364,14 @@
             }
         ],
         "benefits": [
-            "Enables the agent to be slimmed down",
-            "Agents are less likely to be detected by EDR/Antivirus",
-            "Reduced build time",
-            "Reduced testing time",
+            "Improved reporting",
+            "Enables the agent to be further slimmed down",
             "Enables rapid feature development",
+            "Enables rapid development of new reports",
             "Allows development to respond more rapidly to market demands",
             "Allows community members to more easily contribute features",
             "Allows development team to support customers more efficiently"
         ],
-        "image": "images/more-plugin-interfaces.jpg"
+        "image": "images/reporting.png"
     }
 ]
