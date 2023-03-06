@@ -231,7 +231,7 @@
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "in-progress",
                 "description": "Secure `SystemSingleton`",
                 "strikethrough": false
             },
