@@ -264,6 +264,26 @@
         "tasks": [
             {
                 "status": "todo",
+                "description": "Design a brute-force strategy component",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Migrate WMI exploiter to a plugin",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Migrate ZeroLogon exploiter to a plugin",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Migrate PowerShell exploiter to a plugin",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
                 "description": "Allow pluggable event types",
                 "strikethrough": false
             },
@@ -279,39 +299,10 @@
             },
             {
                 "status": "todo",
-                "description": "Redesign SSH collector as plugin",
-                "strikethrough": false
-            },
-            {
-                "status": "todo",
-                "description": "Design a brute-force strategy component",
-                "strikethrough": false
-            },
-            {
-                "status": "todo",
-                "description": "Migrate MSSQL exploiter to a plugin",
-                "strikethrough": false
-            },
-            {
-                "status": "todo",
-                "description": "Migrate PowerShell exploiter to a plugin",
-                "strikethrough": false
-            },
-            {
-                "status": "todo",
-                "description": "Migrate SSH exploiter to a plugin",
-                "strikethrough": false
-            },
-            {
-                "status": "todo",
-                "description": "Migrate WMI exploiter to a plugin",
-                "strikethrough": false
-            },
-            {
-                "status": "todo",
-                "description": "Migrate ZeroLogon exploiter to a plugin",
+                "description": "Compress/encrypt plugins (if necessary)",
                 "strikethrough": false
             }
+
         ],
         "benefits": [
             "The Island can be installed on Windows without tripping EDR/Antivirus",
@@ -320,6 +311,7 @@
             "Reduced build time",
             "Reduced testing time",
             "Enables rapid feature development",
+            "Helps the development team to further solidify the plugin interface",
             "Allows development to respond more rapidly to market demands",
             "Allows community members to more easily contribute features",
             "Allows development team to support customers more efficiently"
@@ -329,8 +321,39 @@
     {
         "draft": true,
         "start_date": "June 8, 2022",
-        "end_date": "August 3, 2023",
-        "description": "v2.3.0 - Improved/Pluggable Reporting",
+        "end_date": "July 13, 2023",
+        "description": "v2.3.0 - Better brute-force exploiters",
+        "tasks": [
+            {
+                "status": "todo",
+                "description": "RDP Exploiter",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Migrate MSSQL exploiter to a plugin",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Migrate SSH exploiter to a plugin",
+                "strikethrough": false
+            }
+
+        ],
+        "benefits": [
+            "Enable Infection Monkey to use RDP to propagate",
+            "The Agent will be significantly slimmer",
+            "Reduced build time",
+            "Reduced testing time"
+        ],
+        "image": "images/brute-force.png"
+    },
+    {
+        "draft": true,
+        "start_date": "July 14, 2022",
+        "end_date": "Sepember 14, 2023",
+        "description": "v2.4.0 - Improved/Pluggable Reporting",
         "tasks": [
             {
                 "status": "todo",
