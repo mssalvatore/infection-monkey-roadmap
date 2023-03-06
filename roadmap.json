@@ -226,7 +226,7 @@
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "in-progress",
                 "description": "Smarter brute forcing",
                 "strikethrough": false
             },
