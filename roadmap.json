@@ -206,7 +206,7 @@
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "Publish Island Docker images to DockerHub",
                 "strikethrough": false
             },
