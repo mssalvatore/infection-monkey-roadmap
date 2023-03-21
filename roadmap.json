@@ -80,7 +80,7 @@
     {
         "greyed": true,
         "start_date": "Apr 21, 2022",
-        "end_date": "October 20, 2022",
+        "end_date": "Oct 20, 2022",
         "description": "Island Refactor",
         "tasks": [
             {
@@ -177,7 +177,7 @@
     {
         "in_progress": true,
         "start_date": "Feb 10, 2023",
-        "end_date": "Apr 7 2023",
+        "end_date": "Apr 14, 2023",
         "description": "v2.1.0 - Forward Progress",
         "tasks": [
             {
@@ -232,6 +232,11 @@
             },
             {
                 "status": "done",
+                "description": "Design a brute-force strategy component",
+                "strikethrough": false
+            },
+            {
+                "status": "done",
                 "description": "Secure `SystemSingleton`",
                 "strikethrough": false
             },
@@ -258,15 +263,10 @@
     },
     {
         "draft": true,
-        "start_date": "April 7, 2022",
-        "end_date": "June 1, 2023",
+        "start_date": "Apr 14, 2022",
+        "end_date": "Jun 1, 2023",
         "description": "v2.2.0 - Install with no AV errors",
         "tasks": [
-            {
-                "status": "todo",
-                "description": "Design a brute-force strategy component",
-                "strikethrough": false
-            },
             {
                 "status": "todo",
                 "description": "Migrate WMI exploiter to a plugin",
@@ -280,11 +280,6 @@
             {
                 "status": "todo",
                 "description": "Migrate PowerShell exploiter to a plugin",
-                "strikethrough": false
-            },
-            {
-                "status": "todo",
-                "description": "Allow pluggable event types",
                 "strikethrough": false
             },
             {
@@ -320,10 +315,15 @@
     },
     {
         "draft": true,
-        "start_date": "June 1, 2022",
-        "end_date": "July 6, 2023",
+        "start_date": "Jun 1, 2022",
+        "end_date": "Jul 20, 2023",
         "description": "v2.3.0 - Better brute-force exploiters",
         "tasks": [
+            {
+                "status": "todo",
+                "description": "Allow pluggable event types",
+                "strikethrough": false
+            },
             {
                 "status": "todo",
                 "description": "RDP Exploiter",
@@ -338,6 +338,11 @@
                 "status": "todo",
                 "description": "Migrate SSH exploiter to a plugin",
                 "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Public plugin repository",
+                "strikethrough": false
             }
 
         ],
@@ -351,8 +356,8 @@
     },
     {
         "draft": true,
-        "start_date": "July 6, 2022",
-        "end_date": "September 7, 2023",
+        "start_date": "Jul 20, 2022",
+        "end_date": "Sep 21, 2023",
         "description": "v2.4.0 - Improved/Pluggable Reporting",
         "tasks": [
             {
