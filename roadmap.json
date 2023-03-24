@@ -221,7 +221,7 @@
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "Migrate SMB exploiter to a plugin",
                 "strikethrough": false
             },
@@ -238,6 +238,11 @@
             {
                 "status": "done",
                 "description": "Secure `SystemSingleton`",
+                "strikethrough": false
+            },
+            {
+                "status": "in-progress",
+                "description": "Download metrics/analytics",
                 "strikethrough": false
             },
             {
