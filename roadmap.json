@@ -299,6 +299,16 @@
             },
             {
                 "status": "todo",
+                "description": "Redesign SSH Keys collector as plugin",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Support additional SSH key file formats",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
                 "description": "Compress/encrypt plugins (if necessary)",
                 "strikethrough": false
             }
@@ -326,7 +336,7 @@
         "tasks": [
             {
                 "status": "todo",
-                "description": "Allow pluggable event types",
+                "description": "Enable configuration of credential pairs",
                 "strikethrough": false
             },
             {
@@ -365,6 +375,11 @@
         "end_date": "Sep 21, 2023",
         "description": "v2.4.0 - Improved/Pluggable Reporting",
         "tasks": [
+            {
+                "status": "todo",
+                "description": "Design and implement plugin-defined (custom) event types",
+                "strikethrough": false
+            },
             {
                 "status": "todo",
                 "description": "Design pluggable reporting",
