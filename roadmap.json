@@ -177,7 +177,7 @@
     {
         "in_progress": true,
         "start_date": "Feb 10, 2023",
-        "end_date": "Apr 14, 2023",
+        "end_date": "Apr 19, 2023",
         "description": "v2.1.0 - Forward Progress",
         "tasks": [
             {
@@ -268,8 +268,8 @@
     },
     {
         "draft": true,
-        "start_date": "Apr 14, 2022",
-        "end_date": "Jun 1, 2023",
+        "start_date": "Apr 21, 2022",
+        "end_date": "Jun 23, 2023",
         "description": "v2.2.0 - Install with no AV errors",
         "tasks": [
             {
@@ -335,8 +335,8 @@
     },
     {
         "draft": true,
-        "start_date": "Jun 1, 2022",
-        "end_date": "Jul 20, 2023",
+        "start_date": "Jun 30, 2022",
+        "end_date": "Jul 31, 2023",
         "description": "v2.3.0 - Better brute-force exploiters",
         "tasks": [
             {
@@ -376,8 +376,8 @@
     },
     {
         "draft": true,
-        "start_date": "Jul 20, 2022",
-        "end_date": "Sep 21, 2023",
+        "start_date": "Aug 4, 20, 2022",
+        "end_date": "Nov 3, 2023",
         "description": "v2.4.0 - Improved/Pluggable Reporting",
         "tasks": [
             {
