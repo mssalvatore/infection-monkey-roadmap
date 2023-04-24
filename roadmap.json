@@ -268,15 +268,10 @@
     },
     {
         "in_progress": true,
-        "start_date": "Apr 21, 2022",
+        "start_date": "Apr 24, 2022",
         "end_date": "Jun 23, 2023",
         "description": "v2.2.0 - Install with no AV errors",
         "tasks": [
-            {
-                "status": "todo",
-                "description": "SNMP Exploiter Plugin",
-                "strikethrough": false
-            },
             {
                 "status": "todo",
                 "description": "Migrate WMI exploiter to a plugin",
@@ -294,6 +289,11 @@
             },
             {
                 "status": "todo",
+                "description": "SNMP Exploiter Plugin",
+                "strikethrough": false
+            },
+            {
+                "status": "in-progress",
                 "description": "Define collector plugin interface",
                 "strikethrough": false
             },
@@ -316,6 +316,21 @@
                 "status": "todo",
                 "description": "Compress/encrypt plugins (if necessary)",
                 "strikethrough": false
+            },
+            {
+                "status": "in-progress",
+                "description": "Malware Masquerade",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Agents with unique hashes (polymorphic",
+                "strikethrough": false
+            },
+            {
+                "status": "in-progress",
+                "description": "Minor bug fixes",
+                "strikethrough": false
             }
 
         ],
@@ -329,7 +344,8 @@
             "Helps the development team to further solidify the plugin interface",
             "Allows development to respond more rapidly to market demands",
             "Allows community members to more easily contribute features",
-            "Allows development team to support customers more efficiently"
+            "Allows development team to support customers more efficiently",
+            "Enables the testing of malware detection rules"
         ],
         "image": "images/laser-heist.jpg"
     },
