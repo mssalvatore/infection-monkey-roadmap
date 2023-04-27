@@ -273,7 +273,7 @@
         "description": "v2.2.0 - Install with no AV errors",
         "tasks": [
             {
-                "status": "todo",
+                "status": "in-progress",
                 "description": "Migrate WMI exploiter to a plugin",
                 "strikethrough": false
             },
@@ -293,12 +293,12 @@
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "Define collector plugin interface",
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "in-progress",
                 "description": "Redesign Mimikatz collector as plugin",
                 "strikethrough": false
             },
