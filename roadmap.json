@@ -273,12 +273,12 @@
         "description": "v2.2.0 - Install with no AV errors",
         "tasks": [
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "Migrate WMI exploiter to a plugin",
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "done",
                 "description": "Migrate ZeroLogon exploiter to a plugin",
                 "strikethrough": false
             },
@@ -288,7 +288,7 @@
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "in-progress",
                 "description": "SNMP Exploiter Plugin",
                 "strikethrough": false
             },
@@ -298,17 +298,17 @@
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "Redesign Mimikatz collector as plugin",
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "in-progress",
                 "description": "Redesign SSH Keys collector as plugin",
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "in-progress",
                 "description": "Support additional SSH key file formats",
                 "strikethrough": false
             },
@@ -324,7 +324,7 @@
             },
             {
                 "status": "todo",
-                "description": "Agents with unique hashes (polymorphic",
+                "description": "Agents with unique hashes (polymorphic)",
                 "strikethrough": false
             },
             {
