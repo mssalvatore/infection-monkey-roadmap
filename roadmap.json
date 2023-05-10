@@ -303,19 +303,19 @@
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "Redesign SSH Keys collector as plugin",
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "Support additional SSH key file formats",
                 "strikethrough": false
             },
             {
                 "status": "todo",
                 "description": "Compress/encrypt plugins (if necessary)",
-                "strikethrough": false
+                "strikethrough": true
             },
             {
                 "status": "in-progress",
