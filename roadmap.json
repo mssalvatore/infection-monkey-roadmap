@@ -318,12 +318,12 @@
                 "strikethrough": true
             },
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "Malware Masquerade",
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "done",
                 "description": "Agents with unique hashes (polymorphic)",
                 "strikethrough": false
             },
