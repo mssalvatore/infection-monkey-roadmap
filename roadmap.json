@@ -283,13 +283,18 @@
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "in-progress",
                 "description": "Migrate PowerShell exploiter to a plugin",
                 "strikethrough": false
             },
             {
                 "status": "in-progress",
                 "description": "SNMP Exploiter Plugin",
+                "strikethrough": false
+            },
+            {
+                "status": "done",
+                "description": "Migrate MSSQL exploiter to a plugin",
                 "strikethrough": false
             },
             {
@@ -363,11 +368,6 @@
             {
                 "status": "todo",
                 "description": "RDP Exploiter",
-                "strikethrough": false
-            },
-            {
-                "status": "todo",
-                "description": "Migrate MSSQL exploiter to a plugin",
                 "strikethrough": false
             },
             {
