@@ -283,12 +283,12 @@
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "Migrate PowerShell exploiter to a plugin",
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "SNMP Exploiter Plugin",
                 "strikethrough": false
             },
@@ -333,7 +333,7 @@
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "Minor bug fixes",
                 "strikethrough": false
             }
