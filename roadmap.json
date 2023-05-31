@@ -269,7 +269,7 @@
     {
         "in_progress": true,
         "start_date": "Apr 24, 2022",
-        "end_date": "Jun 23, 2023",
+        "end_date": "May 31, 2023",
         "description": "v2.2.0 - Install with no AV errors",
         "tasks": [
             {
@@ -356,7 +356,7 @@
     },
     {
         "draft": true,
-        "start_date": "Jun 30, 2022",
+        "start_date": "June 1, 2022",
         "end_date": "Jul 31, 2023",
         "description": "v2.3.0 - Better brute-force exploiters",
         "tasks": [
