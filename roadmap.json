@@ -267,7 +267,7 @@
         "image": "images/chug-along.png"
     },
     {
-        "in_progress": true,
+        "greyed": true,
         "start_date": "Apr 24, 2022",
         "end_date": "May 31, 2023",
         "description": "v2.2.0 - Install with no AV errors",
@@ -358,8 +358,33 @@
         "draft": true,
         "start_date": "June 1, 2022",
         "end_date": "Jul 31, 2023",
-        "description": "v2.3.0 - Better brute-force exploiters",
+        "description": "v2.3.0 - Put more meat on the bones",
         "tasks": [
+            {
+                "status": "todo",
+                "description": "Allow plugins to define custom Agent events",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Bug fixes",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Compress plugins",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Cryptominer payload plugin",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Define an interface for payload plugins",
+                "strikethrough": false
+            },
             {
                 "status": "todo",
                 "description": "Enable configuration of credential pairs",
@@ -367,7 +392,22 @@
             },
             {
                 "status": "todo",
-                "description": "RDP Exploiter",
+                "description": "Filter events by tag",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Filter events by timestamp",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Migrate Log4Shell exploiter to a plugin",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Migrate Ransomware payload to a plugin",
                 "strikethrough": false
             },
             {
@@ -377,18 +417,44 @@
             },
             {
                 "status": "todo",
+                "description": "New plugin availability notification",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Plugin install/uninstall interface",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
                 "description": "Public plugin repository",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "RDP Exploiter",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Steal credentials from Chrome",
                 "strikethrough": false
             }
 
         ],
         "benefits": [
+            "Add new mechanisms for stealing credentials",
+            "Add a cryptominer simulation",
             "Enable Infection Monkey to use RDP to propagate",
-            "The Agent will be significantly slimmer",
+            "Reduced Agent binary size",
+            "Reduced Island package size",
             "Reduced build time",
-            "Reduced testing time"
+            "Reduced testing time",
+            "Plugins can be easily delivered to users",
+            "Users are notified when new plugins are available",
+            "Users can chose what plugins are installed"
         ],
-        "image": "images/brute-force.png"
+        "image": "images/meat-on-the-bones.png"
     },
     {
         "draft": true,
@@ -396,11 +462,6 @@
         "end_date": "Nov 3, 2023",
         "description": "v2.4.0 - Improved/Pluggable Reporting",
         "tasks": [
-            {
-                "status": "todo",
-                "description": "Design and implement plugin-defined (custom) event types",
-                "strikethrough": false
-            },
             {
                 "status": "todo",
                 "description": "Design pluggable reporting",
@@ -413,22 +474,7 @@
             },
             {
                 "status": "todo",
-                "description": "Define payload plugin interface",
-                "strikethrough": false
-            },
-            {
-                "status": "todo",
-                "description": "Transform ransomware into plugin",
-                "strikethrough": false
-            },
-            {
-                "status": "todo",
                 "description": "Transform ransomware report into plugin",
-                "strikethrough": false
-            },
-            {
-                "status": "todo",
-                "description": "Cryptominer payload",
                 "strikethrough": false
             }
         ],
