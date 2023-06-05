@@ -1,3 +1,9 @@
+const ReleaseStatus = Object.freeze({
+	DRAFT: "draft",
+	IN_PROGRESS: "in-progress",
+	DONE: "done",
+})
+
 class TimelineRenderer {
   constructor(milestones) {
     this.even = true;
@@ -18,9 +24,9 @@ class TimelineRenderer {
     let side = this.even ? "Left" : "Right";
     this.even = ! this.even;
 
-    let opacity = milestone.status == "done" ? "greyed" : "";
-    let draft = milestone.status == "draft" ? true: false;
-    let card_id = milestone.status == "in-progress" ? "in-progress": milestone.description.replace(/\W/g,'_');
+    let draft = milestone.status === ReleaseStatus.DRAFT ? true: false;
+    let card_id = milestone.status === ReleaseStatus.IN_PROGRESS ? "in-progress": milestone.description.replace(/\W/g,'_');
+    let opacity = milestone.status === ReleaseStatus.DONE ? "greyed" : "";
 
     return (
       `<div id="${card_id}" class="timeline-item">
