@@ -18,12 +18,12 @@ class TimelineRenderer {
     let side = this.even ? "Left" : "Right";
     this.even = ! this.even;
 
-    let opacity = milestone.greyed ? "greyed" : "";
-    let draft = milestone.draft ? "draft": "";
-    let in_progress = milestone.in_progress ? "in-progress": milestone.description.replace(/\W/g,'_');
+    let opacity = milestone.status == "done" ? "greyed" : "";
+    let draft = milestone.status == "draft" ? true: false;
+    let card_id = milestone.status == "in-progress" ? "in-progress": milestone.description.replace(/\W/g,'_');
 
     return (
-      `<div id="${in_progress}" class="timeline-item">
+      `<div id="${card_id}" class="timeline-item">
         <div class="timeline-img"></div>
 
         <div class="timeline-content timeline-card ${opacity} js--fadeIn${side}">
@@ -32,7 +32,7 @@ class TimelineRenderer {
           </div>
             <div class="date">${milestone.start_date} - ${milestone.end_date}</div>
             <div class="description">
-                ${milestone.draft ? `<div class="draft">DRAFT</div>` : ""}
+                ${draft ? `<div class="draft">DRAFT</div>` : ""}
                 <p>${milestone.description}</p>
                 ${this.renderTaskList(milestone.tasks)}
                 ${this.renderList("Benefits", milestone.benefits)}

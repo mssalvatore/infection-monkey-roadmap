@@ -1,6 +1,6 @@
 [
     {
-        "greyed": true,
+        "status": "done",
         "start_date": "Nov 8, 2021",
         "end_date": "Apr 7, 2022",
         "description": "Agent Refactor",
@@ -40,7 +40,7 @@
         "image": "images/agent-refactor.png"
     },
     {
-        "greyed": true,
+        "status": "done",
         "start_date": "Apr 7, 2022",
         "end_date": "Apr 21, 2022",
         "description": "Technical Debt Reduction",
@@ -78,7 +78,7 @@
         "image": "images/technical-debt-reduction.png"
     },
     {
-        "greyed": true,
+        "status": "done",
         "start_date": "Apr 21, 2022",
         "end_date": "Oct 20, 2022",
         "description": "Island Refactor",
@@ -136,7 +136,7 @@
         "image": "images/island-refactor.jpg"
     },
     {
-        "greyed": true,
+        "status": "done",
         "start_date": "Oct 20, 2022",
         "end_date": "Feb 10, 2023",
         "description": "Plugin Infrastructure",
@@ -175,7 +175,7 @@
         "image": "images/plugin-infrastructure.png"
     },
     {
-        "greyed": true,
+        "status": "done",
         "start_date": "Feb 10, 2023",
         "end_date": "Apr 19, 2023",
         "description": "v2.1.0 - Forward Progress",
@@ -267,7 +267,7 @@
         "image": "images/chug-along.png"
     },
     {
-        "greyed": true,
+        "status": "done",
         "start_date": "Apr 24, 2022",
         "end_date": "May 31, 2023",
         "description": "v2.2.0 - Install with no AV errors",
@@ -355,7 +355,7 @@
         "image": "images/laser-heist.jpg"
     },
     {
-        "draft": true,
+        "status": "draft",
         "start_date": "June 1, 2022",
         "end_date": "Jul 31, 2023",
         "description": "v2.3.0 - Put more meat on the bones",
@@ -457,7 +457,7 @@
         "image": "images/meat-on-the-bones.png"
     },
     {
-        "draft": true,
+        "status": "draft",
         "start_date": "Aug 4, 20, 2022",
         "end_date": "Nov 3, 2023",
         "description": "v2.4.0 - Improved/Pluggable Reporting",
