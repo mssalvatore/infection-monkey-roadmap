@@ -27,9 +27,10 @@ class TimelineRenderer {
     let draft = milestone.status === ReleaseStatus.DRAFT ? true: false;
     let card_id = milestone.status === ReleaseStatus.IN_PROGRESS ? "in-progress": milestone.description.replace(/\W/g,'_');
     let opacity = milestone.status === ReleaseStatus.DONE ? "greyed" : "";
+    let hidden = milestone.status === ReleaseStatus.DONE ? "hidden" : "";
 
     return (
-      `<div id="${card_id}" class="timeline-item">
+      `<div id="${card_id}" class="timeline-item ${hidden} milestone-status-${milestone.status}">
         <div class="timeline-img"></div>
 
         <div class="timeline-content timeline-card ${opacity} js--fadeIn${side}">
@@ -135,7 +136,7 @@ $(function(){
 
 
 const SCROLL_DURATION = FADE_DURATION * 2;
-const scrollToTarget = function (target) {
+const scrollToTarget = function (target, scrollDuration = SCROLL_DURATION) {
   const top = target.getBoundingClientRect().top;
   const bottom = target.getBoundingClientRect().bottom;
   const center = (top + bottom) / 2;
@@ -153,10 +154,10 @@ const scrollToTarget = function (target) {
 
     const time = currentTime - startTime;
 
-    const percent = Math.min(time / SCROLL_DURATION, 1);
+    const percent = Math.min(time / scrollDuration, 1);
     window.scrollTo(0, startPos + diff * percent);
 
-    if (time < SCROLL_DURATION) {
+    if (time < scrollDuration) {
       requestId = window.requestAnimationFrame(loop);
     } else {
       window.cancelAnimationFrame(requestId);
@@ -170,8 +171,51 @@ function render(milestones) {
   fadeIn();
   window.onkeypress = function(event) {
     if (event.key == "Enter") {
-      var in_progress_milestone = document.getElementById("in-progress");
-      scrollToTarget(in_progress_milestone);
+      scrollToInProgressMilestone()
     }
+  }
+}
+
+function scrollToInProgressMilestone() {
+  var in_progress_milestone = document.getElementById("in-progress");
+  scrollToTarget(in_progress_milestone);
+}
+
+function toggleCompletedMilestones() {
+  // Unfocus the history button, otherwise hitting ENTER will trigger the
+  // button again instead of scrolling to the in-progress milestone.
+  unfocusHistoryButton();
+  toggleHiddenMilestones();
+  toggleHistoryButtonContents();
+}
+
+function unfocusHistoryButton() {
+  button = document.getElementById("history-button");
+  button.blur();
+}
+
+function toggleHiddenMilestones() {
+  var completed_milestones = document.getElementsByClassName("milestone-status-done");
+
+  for (var i = 0; i < completed_milestones.length; i++) {
+    completed_milestones[i].classList.toggle("hidden");
+    if (i == 0) {
+      scrollToTarget(completed_milestones[i], 0.01);
+      scrollToTarget(document.head, 0.01);
+    }
+  }
+}
+
+function toggleHistoryButtonContents() {
+  button_icon = document.getElementById("button-icon");
+  button_text = document.getElementById("button-text");
+
+  if (button_text.textContent.includes("Show")) {
+    button_text.textContent = button_text.textContent.replace("Show", "Hide");
+    button_icon.style.transform = "scaleX(-1)";
+  }
+  else {
+    button_text.textContent = button_text.textContent.replace("Hide", "Show");
+    button_icon.style.transform = "scaleX(1)";
   }
 }
