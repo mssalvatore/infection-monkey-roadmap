@@ -437,6 +437,11 @@
             },
             {
                 "status": "todo",
+                "description": "Shared exploiter plugin resources",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
                 "description": "Steal credentials from Chrome",
                 "strikethrough": false
             }
