@@ -357,7 +357,7 @@
     {
         "status": "draft",
         "start_date": "June 1, 2022",
-        "end_date": "August 7, 2023",
+        "end_date": "September 14, 2023",
         "description": "v2.3.0 - Put more meat on the bones",
         "tasks": [
             {
@@ -463,8 +463,8 @@
     },
     {
         "status": "draft",
-        "start_date": "Aug 14, 20, 2022",
-        "end_date": "Nov 3, 2023",
+        "start_date": "September 14, 20, 2022",
+        "end_date": "Dec 3, 2023",
         "description": "v2.4.0 - Improved/Pluggable Reporting",
         "tasks": [
             {
