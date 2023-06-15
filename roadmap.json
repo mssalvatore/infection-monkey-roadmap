@@ -355,7 +355,7 @@
         "image": "images/laser-heist.jpg"
     },
     {
-        "status": "draft",
+        "status": "in-progress",
         "start_date": "June 1, 2022",
         "end_date": "September 14, 2023",
         "description": "v2.3.0 - Put more meat on the bones",
@@ -417,11 +417,6 @@
             },
             {
                 "status": "todo",
-                "description": "New plugin availability notification",
-                "strikethrough": false
-            },
-            {
-                "status": "todo",
                 "description": "Plugin install/uninstall interface",
                 "strikethrough": false
             },
@@ -431,7 +426,7 @@
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "in-progress",
                 "description": "RDP Exploiter",
                 "strikethrough": false
             },
@@ -444,8 +439,17 @@
                 "status": "todo",
                 "description": "Steal credentials from Chrome",
                 "strikethrough": false
+            },
+            {
+                "status": "in-progress",
+                "description": "Technical debt reduction",
+                "strikethrough": false
+            },
+            {
+                "status": "in-progress",
+                "description": "Update NPM dependencies",
+                "strikethrough": false
             }
-
         ],
         "benefits": [
             "Add new mechanisms for stealing credentials",
@@ -456,7 +460,8 @@
             "Reduced build time",
             "Reduced testing time",
             "Plugins can be easily delivered to users",
-            "Users are notified when new plugins are available",
+            "Plugins can provide rich data and insight",
+            "Users are informed when new plugins are available",
             "Users can chose what plugins are installed"
         ],
         "image": "images/meat-on-the-bones.png"
