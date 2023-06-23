@@ -401,7 +401,7 @@
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "in-progress",
                 "description": "Migrate Log4Shell exploiter to a plugin",
                 "strikethrough": false
             },
@@ -446,7 +446,7 @@
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "Update NPM dependencies",
                 "strikethrough": false
             }
