@@ -371,7 +371,7 @@
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "done",
                 "description": "Compress plugins",
                 "strikethrough": false
             },
@@ -386,7 +386,7 @@
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "in-progress",
                 "description": "Enable configuration of credential pairs",
                 "strikethrough": false
             },
@@ -411,7 +411,7 @@
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "in-progress",
                 "description": "Migrate SSH exploiter to a plugin",
                 "strikethrough": false
             },
