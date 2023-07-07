@@ -381,7 +381,7 @@
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "in-progress",
                 "description": "Define an interface for payload plugins",
                 "strikethrough": false
             },
@@ -411,7 +411,7 @@
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "Migrate SSH exploiter to a plugin",
                 "strikethrough": false
             },
