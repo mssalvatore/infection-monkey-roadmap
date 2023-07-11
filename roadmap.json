@@ -381,7 +381,7 @@
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
+                "status": "todo",
                 "description": "Define an interface for payload plugins",
                 "strikethrough": false
             },
@@ -396,7 +396,7 @@
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "done",
                 "description": "Filter events by timestamp",
                 "strikethrough": false
             },
