@@ -391,7 +391,7 @@
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "done",
                 "description": "Filter events by tag",
                 "strikethrough": false
             },
