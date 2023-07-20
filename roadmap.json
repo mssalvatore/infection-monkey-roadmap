@@ -366,7 +366,7 @@
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "in-progress",
                 "description": "Bug fixes",
                 "strikethrough": false
             },
@@ -431,7 +431,7 @@
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "Shared exploiter plugin resources",
                 "strikethrough": false
             },
