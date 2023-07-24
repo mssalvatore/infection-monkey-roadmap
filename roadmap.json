@@ -381,7 +381,7 @@
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "in-progress",
                 "description": "Define an interface for payload plugins",
                 "strikethrough": false
             },
