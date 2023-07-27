@@ -381,7 +381,7 @@
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "Define an interface for payload plugins",
                 "strikethrough": false
             },
@@ -406,7 +406,7 @@
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "in-progress",
                 "description": "Migrate Ransomware payload to a plugin",
                 "strikethrough": false
             },
