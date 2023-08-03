@@ -376,7 +376,7 @@
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "in-progress",
                 "description": "Cryptominer payload plugin",
                 "strikethrough": false
             },
@@ -421,7 +421,7 @@
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "in-progress",
                 "description": "Public plugin repository",
                 "strikethrough": false
             },
