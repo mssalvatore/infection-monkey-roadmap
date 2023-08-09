@@ -376,8 +376,8 @@
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
-                "description": "Cryptominer payload plugin",
+                "status": "done",
+                "description": "Cryptojacker payload plugin",
                 "strikethrough": false
             },
             {
@@ -426,7 +426,7 @@
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "RDP Exploiter",
                 "strikethrough": false
             },
@@ -453,7 +453,7 @@
         ],
         "benefits": [
             "Add new mechanisms for stealing credentials",
-            "Add a cryptominer simulation",
+            "Add a cryptojacker simulation",
             "Enable Infection Monkey to use RDP to propagate",
             "Reduced Agent binary size",
             "Reduced Island package size",
