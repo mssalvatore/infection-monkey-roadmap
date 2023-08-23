@@ -268,7 +268,7 @@
     },
     {
         "status": "done",
-        "start_date": "Apr 24, 2022",
+        "start_date": "Apr 24, 2023",
         "end_date": "May 31, 2023",
         "description": "v2.2.0 - Install with no AV errors",
         "tasks": [
@@ -356,7 +356,7 @@
     },
     {
         "status": "in-progress",
-        "start_date": "June 1, 2022",
+        "start_date": "June 1, 2023",
         "end_date": "September 14, 2023",
         "description": "v2.3.0 - Put more meat on the bones",
         "tasks": [
