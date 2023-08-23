@@ -468,18 +468,48 @@
     },
     {
         "status": "draft",
-        "start_date": "September 14, 20, 2022",
-        "end_date": "Dec 3, 2023",
-        "description": "v2.4.0 - Improved/Pluggable Reporting",
+        "start_date": "October 1, 2023",
+        "end_date": "March 31, 2024",
+        "description": "v3.0.0 - Improved Experience",
         "tasks": [
             {
                 "status": "todo",
-                "description": "Design pluggable reporting",
+                "description": "New UI",
                 "strikethrough": false
             },
             {
                 "status": "todo",
-                "description": "Design new \"timeline\" report",
+                "description": "Improved reporting",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Analytics",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Enhance existing plugins",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Add new plugins",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Extract SDK",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Extract subprojects",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Design pluggable reporting",
                 "strikethrough": false
             },
             {
