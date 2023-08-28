@@ -416,7 +416,7 @@
                 "strikethrough": false
             },
             {
-                "status": "todo",
+                "status": "in-progress",
                 "description": "Plugin install/uninstall interface",
                 "strikethrough": false
             },
