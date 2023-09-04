@@ -363,7 +363,7 @@
             {
                 "status": "todo",
                 "description": "Allow plugins to define custom Agent events",
-                "strikethrough": false
+                "strikethrough": true
             },
             {
                 "status": "in-progress",
@@ -421,7 +421,7 @@
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "Public plugin repository",
                 "strikethrough": false
             },
