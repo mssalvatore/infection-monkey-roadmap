@@ -366,7 +366,7 @@
                 "strikethrough": true
             },
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "Bug fixes",
                 "strikethrough": false
             },
@@ -416,7 +416,7 @@
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "Plugin install/uninstall interface",
                 "strikethrough": false
             },
@@ -441,7 +441,7 @@
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "Technical debt reduction",
                 "strikethrough": false
             },
