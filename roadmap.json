@@ -357,7 +357,7 @@
     {
         "status": "in-progress",
         "start_date": "June 1, 2023",
-        "end_date": "September 14, 2023",
+        "end_date": "September 22, 2023",
         "description": "v2.3.0 - Put more meat on the bones",
         "tasks": [
             {
@@ -436,7 +436,7 @@
                 "strikethrough": false
             },
             {
-                "status": "in-progress",
+                "status": "done",
                 "description": "Steal credentials from Chrome",
                 "strikethrough": false
             },
