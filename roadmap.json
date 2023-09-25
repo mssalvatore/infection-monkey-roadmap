@@ -355,7 +355,7 @@
         "image": "images/laser-heist.jpg"
     },
     {
-        "status": "in-progress",
+        "status": "done",
         "start_date": "June 1, 2023",
         "end_date": "September 22, 2023",
         "description": "v2.3.0 - Put more meat on the bones",
