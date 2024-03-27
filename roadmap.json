@@ -467,9 +467,55 @@
         "image": "images/meat-on-the-bones.png"
     },
     {
-        "status": "draft",
         "start_date": "October 1, 2023",
-        "end_date": "March 31, 2024",
+        "end_date": "July 31, 2024",
+        "description": "v2.4.0 - Plugin SDK",
+        "tasks": [
+            {
+                "status": "in-progress",
+                "description": "Bug fixes",
+                "strikethrough": false
+            },
+            {
+                "status": "in-progress",
+                "description": "Break monorepo into independently-versioned libraries",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Create a plugin SDK",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Data exfiltration plugin",
+                "strikethrough": false
+            },
+            {
+                "status": "todo",
+                "description": "Document proceedures/interfaces/tools for creating custom plugins",
+                "strikethrough": false
+            },
+            {
+                "status": "done",
+                "description": "Ransomware \"change wallpaper\" feature",
+                "strikethrough": false
+            }
+        ],
+        "benefits": [
+            "Allows development to respond more rapidly to market demands",
+            "Allows community members to more easily contribute features",
+            "Allows development team to support customers more efficiently",
+            "Enables the agent to be further slimmed down",
+            "Enables rapid feature development",
+            "Enables users to simulate data exfiltration scenarios"
+        ],
+        "image": "images/plugin-sdk.jpg"
+    },
+    {
+        "status": "draft",
+        "start_date": "July 31, 2024",
+        "end_date": "December 15, 2024",
         "description": "v3.0.0 - Improved Experience",
         "tasks": [
             {
@@ -499,16 +545,6 @@
             },
             {
                 "status": "todo",
-                "description": "Extract SDK",
-                "strikethrough": false
-            },
-            {
-                "status": "todo",
-                "description": "Extract subprojects",
-                "strikethrough": false
-            },
-            {
-                "status": "todo",
                 "description": "Design pluggable reporting",
                 "strikethrough": false
             },
@@ -520,7 +556,6 @@
         ],
         "benefits": [
             "Improved reporting",
-            "Enables the agent to be further slimmed down",
             "Enables rapid feature development",
             "Enables rapid development of new reports",
             "Allows development to respond more rapidly to market demands",
